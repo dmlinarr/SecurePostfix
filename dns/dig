@@ -1,0 +1,42 @@
+> dig cyberlab.fhnw.ch
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> cyberlab.fhnw.ch
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46689
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;cyberlab.fhnw.ch.		IN	A
+
+;; AUTHORITY SECTION:
+cyberlab.fhnw.ch.	300	IN	SOA	srvNS01.cyberlab.fhnw.ch. hostmaster.cyberlab.fhnw.ch. 2024042201 1200 900 1209600 300
+
+;; Query time: 4 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Tue Apr 23 16:27:16 UTC 2024
+;; MSG SIZE  rcvd: 100
+
+####
+> dig srvNS01.cyberlab.fhnw.ch
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> srvNS01.cyberlab.fhnw.ch
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 39757
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;srvNS01.cyberlab.fhnw.ch.	IN	A
+
+;; ANSWER SECTION:
+srvNS01.cyberlab.fhnw.ch. 4722	IN	A	192.168.64.10
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Tue Apr 23 16:29:36 UTC 2024
+;; MSG SIZE  rcvd: 69
