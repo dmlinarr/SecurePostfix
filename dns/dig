@@ -20,16 +20,23 @@ cyberlab.fhnw.ch.	300	IN	SOA	srvNS01.cyberlab.fhnw.ch. hostmaster.cyberlab.fhnw.
 ;; MSG SIZE  rcvd: 100
 
 CHATGPT
-Die Information, die du erhältst, betrifft den Authority-Bereich (Autoritätsbereich) der DNS-Zone für die Domain cyberlab.fhnw.ch.
+Die Information, die du erhältst, betrifft den Authority-Bereich (Autoritätsbereich)
+der DNS-Zone für die Domain cyberlab.fhnw.ch.
 Hier ist eine Erklärung für die einzelnen Teile:
 
-- `cyberlab.fhnw.ch`: Dies ist die Domain, für die die DNS-Informationen abgefragt werden.
+- `cyberlab.fhnw.ch`: Dies ist die Domain,
+für die die DNS-Informationen abgefragt werden.
 
-- `300 IN SOA`: Dies gibt an, dass die folgenden Informationen zum Start eines autoritativen Datensatzes (SOA, Start of Authority) für die Zone gehören und dass der Datensatz 300 Sekunden (5 Minuten) lang gültig ist.
+- `300 IN SOA`: Dies gibt an, dass die folgenden Informationen
+zum Start eines autoritativen Datensatzes (SOA, Start of Authority) für die Zone
+gehören und dass der Datensatz 300 Sekunden (5 Minuten) lang gültig ist.
 
-- `srvNS01.cyberlab.fhnw.ch`: Dies ist der primäre Nameserver (Primary Server) für die Zone cyberlab.fhnw.ch. Er ist für die Verwaltung der DNS-Zonendaten dieser Domain verantwortlich.
+- `srvNS01.cyberlab.fhnw.ch`: Dies ist der primäre Nameserver (Primary Server)
+für die Zone cyberlab.fhnw.ch. Er ist für die Verwaltung
+der DNS-Zonendaten dieser Domain verantwortlich.
 
-- `hostmaster.cyberlab.fhnw.ch`: Dies ist die E-Mail-Adresse des zuständigen Administrators (Hostmaster) für die Zone cyberlab.fhnw.ch.
+- `hostmaster.cyberlab.fhnw.ch`: Dies ist die E-Mail-Adresse
+des zuständigen Administrators (Hostmaster) für die Zone cyberlab.fhnw.ch.
 
 ####
 > dig srvNS01.cyberlab.fhnw.ch

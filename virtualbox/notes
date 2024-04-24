@@ -3,3 +3,16 @@
 * shared folder
 1.settings > shared folder > + choose folder shareVm and mark auto mount
 2. In vm: mkdir /media/shared dann mount -t vboxsf shareVM /media/shared
+
+* bind:
+sudo apt install bind9 bind9utils
+sudo systemctl restart bind9
+
+config file bind:
+* /etc/bind/named.conf.options
+* /etc/bind/named.conf.local
+* /etc/bind/db.u10.cyberlab.fhnw.ch
+
+ip list:
+mail: 192.168.97.189
+ns: 192.168.97.190
