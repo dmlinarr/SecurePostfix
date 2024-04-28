@@ -1,0 +1,15 @@
+$TTL 10800 ; 3 Stunden in Sekunden
+97.168.192.in-addr.arpa. IN SOA ns.u10.cyberlab.fhnw.ch. hostmaster.u10.cyberlab.fhnw.ch. (
+				1	; Serial
+				10800	; Refresh after 3 hours
+				3600	; Retry after 1 hour
+				604800	; Expire after 1 week
+				3600	; Negativ caching TTL of 1
+)
+
+; Nameserver
+97.168.192.in-addr.arpa.	IN	NS	ns.u10.cyberlab.fhnw.ch.
+
+; Reverse-Lookup
+190.97.168.192.in-addr.arpa.	IN	PTR	ns.u10.cyberlab.fhnw.ch.
+189.97.168.192.in-addr.arpa.	IN	PTR	mail.u10.cyberlab.fhnw.ch.

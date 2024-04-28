@@ -10,3 +10,8 @@ zone "u10.cyberlab.fhnw.ch" {
 	type master;
 	file "/etc/bind/db.u10.cyberlab.fhnw.ch";
 };
+
+zone "97.168.192.in-addr.arpa" {
+	type master;
+	file "/etc/bind/db.192.168.97";
+};
