@@ -22,9 +22,11 @@ source /etc/profile.d/mail.sh
 sudo apt install s-nail
 sudo nano /etc/s-nail.rc
 echo 'init' | s-nail -s 'init' -Snorecord sammy
-cat test_message | s-nail -s 'Test email subject line' -r reflector@cyberlab.fhnw.ch damjan@u10.cyberlab.fhnw.ch
+cat test_message | s-nail -s 'Test email subject line' -r damjan@u10.cyberlab.fhnw.ch reflector@cyberlab.fhnw.ch
 //conf interfaces/ip
 sudo netplan apply
+//spf
+sudo apt install postfix-policyd-spf-python
 
 * Ip list:
 mail: 192.168.97.189
