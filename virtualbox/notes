@@ -17,6 +17,8 @@ sudo systemctl restart postfix
 //conf dns client
 sudo apt-get install resolvconf
 sudo systemctl enable --now resolvconf.service
+//conf interfaces/ip
+sudo netplan apply
 //send mail
 sudo apt install mailutils
 echo "Nachrichtentext" | mail -s "Betreff" empfänger@example.com
@@ -33,4 +35,5 @@ hostname mail.u10.cyberlab.fhnw.ch
 
 * Ip list:
 mail: 192.168.97.189
-ns: 192.168.97.190
+ns1: 192.168.97.80
+default: 192.168.96.1

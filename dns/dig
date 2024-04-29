@@ -59,3 +59,31 @@ srvNS01.cyberlab.fhnw.ch. 4722	IN	A	192.168.64.10
 ;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
 ;; WHEN: Tue Apr 23 16:29:36 UTC 2024
 ;; MSG SIZE  rcvd: 69
+
+####
+> dig u10.cyberlab.fhnw.ch @192.168.64.10 ns +norecurse
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> u10.cyberlab.fhnw.ch @192.168.64.10 ns +norecurse
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 46369
+;; flags: qr ra; QUERY: 1, ANSWER: 0, AUTHORITY: 2, ADDITIONAL: 3
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+; COOKIE: 04d64f2da491433101000000662f44c579f5e89e5ad9adb2 (good)
+;; QUESTION SECTION:
+;u10.cyberlab.fhnw.ch.		IN	NS
+
+;; AUTHORITY SECTION:
+u10.cyberlab.fhnw.ch.	4800	IN	NS	ns1.u10.cyberlab.fhnw.ch.
+u10.cyberlab.fhnw.ch.	4800	IN	NS	ns2.u10.cyberlab.fhnw.ch.
+
+;; ADDITIONAL SECTION:
+ns2.u10.cyberlab.fhnw.ch. 4800	IN	A	192.168.97.81
+ns1.u10.cyberlab.fhnw.ch. 4800	IN	A	192.168.97.80
+
+;; Query time: 0 msec
+;; SERVER: 192.168.64.10#53(192.168.64.10) (UDP)
+;; WHEN: Mon Apr 29 06:57:09 UTC 2024
+;; MSG SIZE  rcvd: 145
