@@ -11,27 +11,20 @@ sudo apt install bind9 bind9utils
 sudo systemctl restart bind9
 sudo systemctl stop systemd-resolved
 sudo systemctl disable systemd-resolved
-//postfix
+//postfix,postconf,s-nail
 sudo apt install postfix
 sudo systemctl restart postfix
-//conf dns client
-sudo apt-get install resolvconf
-sudo systemctl enable --now resolvconf.service
+sudo postconf -e 'home_mailbox= Maildir/'
+sudo postconf -e 'virtual_alias_maps= hash:/etc/postfix/virtual'
+sudo postmap /etc/postfix/virtual
+echo 'export MAIL=~/Maildir' | sudo tee -a /etc/bash.bashrc | sudo tee -a /etc/profile.d/mail.sh
+source /etc/profile.d/mail.sh
+sudo apt install s-nail
+sudo nano /etc/s-nail.rc
+echo 'init' | s-nail -s 'init' -Snorecord sammy
+cat test_message | s-nail -s 'Test email subject line' -r reflector@cyberlab.fhnw.ch damjan@u10.cyberlab.fhnw.ch
 //conf interfaces/ip
 sudo netplan apply
-//send mail
-sudo apt install mailutils
-echo "Nachrichtentext" | mail -s "Betreff" empfänger@example.com
-//set hostname
-hostname mail.u10.cyberlab.fhnw.ch
-
-* Config files:
-//bind
-/etc/bind/named.conf.options
-/etc/bind/named.conf.local
-/etc/bind/db.u10.cyberlab.fhnw.ch
-/run/systemd/resolve/stub-resolv.conf
-/etc/resolvconf/resolv.conf.d/head
 
 * Ip list:
 mail: 192.168.97.189
