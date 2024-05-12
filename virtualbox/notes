@@ -20,15 +20,20 @@ sudo postmap /etc/postfix/virtual
 echo 'export MAIL=~/Maildir' | sudo tee -a /etc/bash.bashrc | sudo tee -a /etc/profile.d/mail.sh
 source /etc/profile.d/mail.sh
 sudo apt install s-nail
-sudo nano /etc/s-nail.rc
 echo 'init' | s-nail -s 'init' -Snorecord sammy
 cat test_message | s-nail -s 'Test email subject line' -r damjan@u10.cyberlab.fhnw.ch reflector@cyberlab.fhnw.ch
 //conf interfaces/ip
 sudo netplan apply
 //spf
 sudo apt install postfix-policyd-spf-python
+//opendkim
+sudo apt install opendkim opendkim-tools
+sudo opendkim-genkey -s mail -d u10.cyberlab.fhnw.ch
 
 * Ip list:
 mail: 192.168.97.189
 ns1: 192.168.97.80
 default: 192.168.96.1
+
+* portnumbers:
+opendkim: 12301

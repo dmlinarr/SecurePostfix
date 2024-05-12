@@ -50,9 +50,16 @@ inet_protocols = all
 home_mailbox = Maildir/
 virtual_alias_maps = hash:/etc/postfix/virtual
 
+# SPF
 policyd-spf_time_limit = 3600
 smtpd_recipient_restrictions =
 	permit_mynetworks,
 	permit_sasl_authenticated,
 	reject_unauth_destination,
 	check_policy_service unix:private/policyd-spf
+
+#DKIM
+milter_protocol = 2
+milter_default_action = accept
+smtpd_milters = inet:localhost:12301
+non_smtpd_milters = inet:localhost:12301

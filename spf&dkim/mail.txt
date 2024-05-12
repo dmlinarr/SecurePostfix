@@ -1,0 +1,3 @@
+mail._domainkey	IN	TXT	( "v=DKIM1; h=sha256; k=rsa; "
+	  "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwL/AOUT0DLI9Y8zFRCd5AN+oJggpIoHcCvPngDkMOJzAhsN9i5vXOESzXm9KDt4u1CRpcwEruDT6UZZ2L0f6f2Q7r5yt/T4Vo/Do67nNlpUwoyEjeOURcDrLPTUx/mKocP7GOscQ6AAhNZHAYlMqMO426t29h7SQt1aHMdZYjqmmukVvdAN0R93jDJvbEuSzwk8FcPq0fm9fry"
+	  "qVWj6YfuvpsXQcpm556iX55QRLxlQJjp6JEAeDrBWAbxwGkI+Rdz/vS+MY95p992F5mROxi1CB9aRTIWKt62lvtnjCVrZIfrB+Yoa9+nH5MWg8LNUHdPIv6+M2ik7wVURfkgmgvwIDAQAB" )  ; ----- DKIM key mail for u10.cyberlab.fhnw.ch
