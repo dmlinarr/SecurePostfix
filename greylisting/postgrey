@@ -1,0 +1,1 @@
+POSTGREY_OPTS="--inet=127.0.0.1:10023 --whitelist-clients=/etc/postgrey/whitelist_clients.local"

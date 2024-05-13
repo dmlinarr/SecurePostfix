@@ -29,6 +29,12 @@ sudo apt install postfix-policyd-spf-python
 //opendkim
 sudo apt install opendkim opendkim-tools
 sudo opendkim-genkey -s mail -d u10.cyberlab.fhnw.ch
+//postgrey
+sudo apt install postgrey
+//mailabfragen
+mailq
+postsuper -d QUEUE-ID
+mailx
 
 * Ip list:
 mail: 192.168.97.189
@@ -37,3 +43,4 @@ default: 192.168.96.1
 
 * portnumbers:
 opendkim: 12301
+postgrey: 10023
