@@ -6,6 +6,8 @@ shared folder: settings > shared folder > + choose folder shareVm and mark auto 
 //mount shared folder
 mkdir /media/shared
 mount -t vboxsf shareVM /media/shared
+//copy pasting
+sudo cat file | sudo tee -a rootfile > /dev/null
 //bind
 sudo apt install bind9 bind9utils
 sudo systemctl restart bind9
@@ -35,6 +37,11 @@ sudo apt install postgrey
 mailq
 postsuper -d QUEUE-ID
 mailx
+//bayes antivirus stuff
+sudo apt install amavisd-new spamassassin clamav-daemon
+sudo apt install arj bzip2 cabextract cpio file gzip nomarch pax rar unrar unzip zip
+sudo adduser clamav amavis
+sudo adduser amavis clamav
 
 * Ip list:
 mail: 192.168.97.189
@@ -44,3 +51,4 @@ default: 192.168.96.1
 * portnumbers:
 opendkim: 12301
 postgrey: 10023
+amavis: 10024
