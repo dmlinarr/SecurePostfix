@@ -9,7 +9,9 @@ $TTL 10800 ; 3 Stunden in Sekunden
 
 ; Nameserver
 97.168.192.in-addr.arpa.	IN	NS	ns1.u10.cyberlab.fhnw.ch.
+97.168.192.in-addr.arpa.	IN	NS	ns2.u10.cyberlab.fhnw.ch.
 
 ; Reverse-Lookup
-80.97.168.192.in-addr.arpa.	    IN	PTR	ns1.u10.cyberlab.fhnw.ch.
+80.97.168.192.in-addr.arpa.	IN	PTR	ns1.u10.cyberlab.fhnw.ch.
+81.97.168.192.in-addr.arpa.	IN	PTR	ns2.u10.cyberlab.fhnw.ch.
 189.97.168.192.in-addr.arpa.	IN	PTR	mail.u10.cyberlab.fhnw.ch.

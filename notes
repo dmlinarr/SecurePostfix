@@ -46,6 +46,7 @@ sudo adduser amavis clamav
 * Ip list:
 mail: 192.168.97.189
 ns1: 192.168.97.80
+ns2: 192.168.97.81
 default: 192.168.96.1
 
 * portnumbers:
