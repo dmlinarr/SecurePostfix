@@ -1,0 +1,2848 @@
+From student@u7.cyberlab.fhnw.ch Mon Apr 29 12:39:01 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id 010DC65583
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 29 Apr 2024 12:39:01 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1714394236;
+	bh=IQc8/wiOSrEs8GUwW2vkLqzWCebLovKQ1fi45x5Q+Og=;
+	h=Subject:To:Date:From:From;
+	b=AS4MdmHMouUzxexgjN8wWq0N8nVkuMXLnYjLxVVyfJJUFUTYuXobyeuartiafaB2T
+	 k6Q8D/Hc14KjoLtVVOGPqv6OlxGmzBd/Nj0T9sPtpTp9WjG2lzTq71Tly8bNgvDWOx
+	 70a0qXGnPdPUlVi1N8lVNhuCISW0L4HADJUWzKJabWAPrCXFTAmYiwVysYtgnAfODt
+	 5ZFyITyWaQkxDgEFAQyO1tOhX0srbkFyuXO1PbIau+ztxemZDRIrww8VjK0ThX5m2n
+	 YbujnUjFdFa0x8r+3njKr/M+tNaQAH/q2iVdhx7vvMGKjCClKBRN8rZRJvAZlbfE9w
+	 XgKO7XmMnJD1Q==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 9B709A342A; Mon, 29 Apr 2024 14:37:16 +0200 (CEST)
+Subject: spf?
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 29 Apr 2024 14:37:16 +0200
+Message-Id: <20240429123716.9B709A342A@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: R
+X-IMAPbase:           1714394407                   39
+X-UID: 1
+
+spf?
+
+From student@u6.cyberlab.fhnw.ch Mon Apr 29 12:43:16 2024
+Return-Path: <student@u6.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.50; helo=mail.u6.cyberlab.fhnw.ch; envelope-from=student@u6.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from mail.u6.cyberlab.fhnw.ch (mail.u6.cyberlab.fhnw.ch [192.168.97.50])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id B9EFE65598
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 29 Apr 2024 12:43:16 +0000 (UTC)
+Received: by mail.u6.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 0664EA3213; Mon, 29 Apr 2024 14:39:50 +0200 (CEST)
+Date: Mon, 29 Apr 2024 14:39:49 +0200
+From: student@u6.cyberlab.fhnw.ch
+To: damjan@u10.cyberlab.fhnw.ch
+Subject: Test mail u6
+Message-ID: <20240429123949.3kn1P%student@u6.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+Status: R
+X-UID: 2
+
+Hello,
+
+This is a test.
+
+From student@u7.cyberlab.fhnw.ch Mon May 13 11:21:48 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+X-Greylist: delayed 341 seconds by postgrey-1.36 at postfix; Mon, 13 May 2024 11:21:48 UTC
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id D648F65CAB
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 11:21:48 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1715598826;
+	bh=mP0EJsdCYSzQNVJzbTe4LGBCAS3//D6I136JuzWx5g8=;
+	h=Subject:To:Date:From:From;
+	b=szRTv9KCUdCORUvc4mkiy3i5iJMk5ZJVXMM8WhCDEtlApFVwfgHHoz7FE1hDknGoY
+	 UGnv5qe2yTGx0Lepqi7OVlSVdQJGX5qyoRyaSBaJKgx8z/eZKyHSaUjlXLKOO8M4mT
+	 2YiKBevMEbrIWM2vC+w1FW0FUw2lXx+q/pQnhpknMNqd/kxnzxdUql+engYlpheyYK
+	 cKvafVrPa+wKWwGLZVC9LPty1I3qRWSG8dXou8+lF+pLGNSC1wRCANhaT8tcsAwG/I
+	 N6WP47s7zfGrt9cXXnEhICoUf1KqDEU71UZ3P+aOqKtmTgLx9HCeQOkDRAXQSiuxzv
+	 jbYM9GPY36pGg==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 3C7FAA3570; Mon, 13 May 2024 13:13:46 +0200 (CEST)
+Subject: Nice To meet you
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 13:13:46 +0200
+Message-Id: <20240513111346.3C7FAA3570@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: R
+X-UID: 3
+
+lololololo
+
+From  Mon May 13 09:46:55 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 4E37665CAC; Mon, 13 May 2024 09:46:55 +0000 (UTC)
+Date: Mon, 13 May 2024 09:46:55 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="0E6B065CAB.1715593615/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240513094655.4E37665CAC@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 4
+
+This is a MIME-encapsulated message.
+
+--0E6B065CAB.1715593615/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--0E6B065CAB.1715593615/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 0E6B065CAB
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 13 May 2024 09:46:54 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--0E6B065CAB.1715593615/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1715593615;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=q+crYxeFbsPs/ZgQpaRd82AfBB3XefIfFerCPhRTZbww8TtXyfGuIFi5E4YpVzdl2
+	 z6MJDFMVlvfqDliGZAEKGbi/rnlKY5vI5yUw2aAefPVJ8VvcxpJiIlXn76CTPYn/4t
+	 8bbP5Q2beAp7TX3Z8TC/9BHxORob6q37sTqn41knjtcyBZOTbdyV/2AgPpDJdm7ERJ
+	 DD0JqLqYiOYF6AEbprZY9xv0XhRLi+GT1FKIoczVS8gmfDYPJ8ORxseYCijvQLlVDu
+	 oCVMuR/PfSjcq8iOATL7IdPQJiYWaRCN77U5pmLPrS3uTOXcz69wW8MVLRef4QqeNh
+	 QyDdV7YGLL1MQ==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 0E6B065CAB; Mon, 13 May 2024 09:46:54 +0000 (UTC)
+Date: Mon, 13 May 2024 09:46:54 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: testing 2.0 greylisting
+Message-ID: <20240513094654.H07th%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--0E6B065CAB.1715593615/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Mon May 13 12:01:05 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 9C2776559C
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 12:01:05 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 8734960643
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 14:01:05 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 9pqD6NnHtvUQ for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 13 May 2024 14:01:05 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 76DBF60706; Mon, 13 May 2024 14:01:05 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1715601665=:2000"
+Subject: reflected: greylist test
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 14:01:05 +0200
+Message-Id: <20240513120105.76DBF60706@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: R
+X-UID: 5
+
+--1804289383-1715601665=:2000
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240513140105.2000@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1715601665=:2000
+Content-Type: application/octet-stream; name="tmp.wbnIHGdjnP.eml"
+Content-Disposition: attachment; filename="tmp.wbnIHGdjnP.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240513140105.2000.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIE1vbiBNYXkgMTMgMTQ6MDE6MDUgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgNjk1RDM2MDZGQgoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IE1vbiwgMTMg
+TWF5IDIwMjQgMTQ6MDE6MDUgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbMTI3LjAuMC4xXSkKCWJ5IGxvY2FsaG9zdCAoc3J2bXNn
+MDEuY3liZXJsYWIuZmhudy5jaCBbMTI3LjAuMC4xXSkgKGFtYXZpc2QtbmV3LCBwb3J0IDEwMDI0
+KQoJd2l0aCBFU01UUCBpZCBFczFiSTFkSnh3T0ggZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhu
+dy5jaD47CglNb24sIDEzIE1heSAyMDI0IDE0OjAxOjA1ICswMjAwIChDRVNUKQpSZWNlaXZlZC1T
+UEY6IFBhc3MgKG1haWxmcm9tKSBpZGVudGl0eT1tYWlsZnJvbTsgY2xpZW50LWlwPTE5Mi4xNjgu
+OTcuMTg5OyBoZWxvPW1haWwudTEwLmN5YmVybGFiLmZobncuY2g7IGVudmVsb3BlLWZyb209ZGFt
+amFuQHUxMC5jeWJlcmxhYi5maG53LmNoOyByZWNlaXZlcj08VU5LTk9XTj4gClJlY2VpdmVkOiBm
+cm9tIG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKHVua25vd24gWzE5Mi4xNjguOTcuMTg5XSkK
+CWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFBTIGlkIDU3
+MzMyNjA2NDMKCWZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2g+OyBNb24sIDEzIE1heSAy
+MDI0IDE0OjAxOjA1ICswMjAwIChDRVNUKQpES0lNLVNpZ25hdHVyZTogdj0xOyBhPXJzYS1zaGEy
+NTY7IGM9cmVsYXhlZC9zaW1wbGU7IGQ9dTEwLmN5YmVybGFiLmZobncuY2g7CglzPW1haWw7IHQ9
+MTcxNTYwMTY2NTsKCWJoPUs5V3BDa2s5ZGVlMnBsRy9pZHQwZ1dGNFRseTJVTk5KY0VyeUxMVE5I
+VGc9OwoJaD1EYXRlOkZyb206VG86U3ViamVjdDpGcm9tOwoJYj1Yb2NMbWYyME9mVWtYRXZySjJI
+bFExYnh1cFg0RWdsc2VsbFlNaXR1Y1RyM3NOa0w1YkRmWUI4S3VFTDdINmRXMAoJIEFPZ2xEWnpa
+bzl3QS96UzBXUmRBNnF4NVBEQ3FRSG04ZnJWaHJtbklJSEVJQkZ1RGwvQnhXTDkyV0ZmNkJEZklI
+RQoJIFJmeFE1MEFNVFJtSmdBbDhzdEpYQjZXOCtDRkJHQ2V4RG5uVll0cG5GelIwNFRvUSs0WW5w
+VkxVaFpyWk8xZkpsQgoJIGRBZDJjTDZYMGVpOXhPZVV2Q3RhenZid1FTRytCTWdnUk1kSlZHYnJH
+Rm9HZHlYdWowTHJ0d3ppTFhJdStRWGQrTAoJIDVkNlAwUk5DL2dTTE80bXVHWVVpZUxlSE1XSTZ0
+YVJmbjg5Qzc0V25RaHd2S0VndVF6TG9mejVDeTV4YWJoc1JVVgoJIEUyQmJUNmNOcFdTcWc9PQpS
+ZWNlaXZlZDogYnkgbWFpbC51MTAuY3liZXJsYWIuZmhudy5jaCAoUG9zdGZpeCwgZnJvbSB1c2Vy
+aWQgMTAwMCkKCWlkIDFFODIzNjVDQTE7IE1vbiwgMTMgTWF5IDIwMjQgMTI6MDE6MDUgKzAwMDAg
+KFVUQykKRGF0ZTogTW9uLCAxMyBNYXkgMjAyNCAxMjowMTowNSArMDAwMApGcm9tOiBkYW1qYW5A
+dTEwLmN5YmVybGFiLmZobncuY2gKVG86IHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoClN1Ympl
+Y3Q6IGdyZXlsaXN0IHRlc3QKTWVzc2FnZS1JRDogPDIwMjQwNTEzMTIwMTA1LjU5YXZxJWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaD4KVXNlci1BZ2VudDogcy1uYWlsIHYxNC45LjIzCgpEaWVz
+IGlzdCBlaW5lIE5hY2hyaWNodCB2b24gRGFtamFuIE1saW5hciBhbiBWaWt0b3IgV2VpbGVubWFu
+Cgo=
+--1804289383-1715601665=:2000--
+
+From  Mon May 13 12:17:57 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 6D38965A95; Mon, 13 May 2024 12:17:57 +0000 (UTC)
+Date: Mon, 13 May 2024 12:17:57 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3121065599.1715602677/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240513121757.6D38965A95@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 6
+
+This is a MIME-encapsulated message.
+
+--3121065599.1715602677/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--3121065599.1715602677/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 3121065599
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 13 May 2024 12:17:57 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--3121065599.1715602677/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1715602677;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=d0Rk6xOSIflz3EugOQpF6MxfmWpUli/QZj7ecPRbPJeqKD24qhliFdIbbmben3VPW
+	 5hPkT13y+UC2TeGX+BKzSB61fxn5U4hn50S9Fp8BTu/p9NfWimzSECcM71keHP0SMI
+	 s3Pks53VJaF5OV+cLbMlmCtB9JBX80UeCDhK7v0aWsJUCpvFeu1VrzaeqJNMKj1Jl3
+	 yjZBTu6o8xOT0zuMaZCyDKi8IDMesyglw2+CA3j4xCj7XCC4bUZ4Q1bJWIGT4R1Uiu
+	 D7QJNCbgWHHL+lTbUZ1ovuFYUH9rZe1DHQXIRr+nmDdXXpmdBOhiV56NbN0HNp3ilL
+	 CgYWrrjkx8gNw==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 3121065599; Mon, 13 May 2024 12:17:57 +0000 (UTC)
+Date: Mon, 13 May 2024 12:17:57 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: greylist test2
+Message-ID: <20240513121757.t9PBD%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--3121065599.1715602677/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Mon May 13 09:42:15 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+X-Greylist: delayed 506 seconds by postgrey-1.36 at postfix; Mon, 13 May 2024 09:42:15 UTC
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 91FBD65505
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 09:42:15 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id A068460222
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 11:33:49 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id R0019e7Gt9KG for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 13 May 2024 11:33:49 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 6C0B660471; Mon, 13 May 2024 11:33:49 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1715592829=:68672"
+Subject: reflected: testing greylisting
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 11:33:49 +0200
+Message-Id: <20240513093349.6C0B660471@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: OR
+X-UID: 7
+
+--1804289383-1715592829=:68672
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240513113349.68672@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1715592829=:68672
+Content-Type: application/octet-stream; name="tmp.TBKMOVzqUk.eml"
+Content-Disposition: attachment; filename="tmp.TBKMOVzqUk.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240513113349.68672.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIE1vbiBNYXkgMTMgMTE6MzM6NDkgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgMzhDQ0E2MDIyOAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IE1vbiwgMTMg
+TWF5IDIwMjQgMTE6MzM6NDkgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbMTI3LjAuMC4xXSkKCWJ5IGxvY2FsaG9zdCAoc3J2bXNn
+MDEuY3liZXJsYWIuZmhudy5jaCBbMTI3LjAuMC4xXSkgKGFtYXZpc2QtbmV3LCBwb3J0IDEwMDI0
+KQoJd2l0aCBFU01UUCBpZCBKSkxLQ3I5eUdFVk0gZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhu
+dy5jaD47CglNb24sIDEzIE1heSAyMDI0IDExOjMzOjQ4ICswMjAwIChDRVNUKQpSZWNlaXZlZC1T
+UEY6IFBhc3MgKG1haWxmcm9tKSBpZGVudGl0eT1tYWlsZnJvbTsgY2xpZW50LWlwPTE5Mi4xNjgu
+OTcuMTg5OyBoZWxvPW1haWwudTEwLmN5YmVybGFiLmZobncuY2g7IGVudmVsb3BlLWZyb209ZGFt
+amFuQHUxMC5jeWJlcmxhYi5maG53LmNoOyByZWNlaXZlcj08VU5LTk9XTj4gClJlY2VpdmVkOiBm
+cm9tIG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKHVua25vd24gWzE5Mi4xNjguOTcuMTg5XSkK
+CWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFBTIGlkIDQy
+NEMxNjAyMjIKCWZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2g+OyBNb24sIDEzIE1heSAy
+MDI0IDExOjMzOjQ4ICswMjAwIChDRVNUKQpES0lNLVNpZ25hdHVyZTogdj0xOyBhPXJzYS1zaGEy
+NTY7IGM9cmVsYXhlZC9zaW1wbGU7IGQ9dTEwLmN5YmVybGFiLmZobncuY2g7CglzPW1haWw7IHQ9
+MTcxNTU5MjgyODsKCWJoPUs5V3BDa2s5ZGVlMnBsRy9pZHQwZ1dGNFRseTJVTk5KY0VyeUxMVE5I
+VGc9OwoJaD1EYXRlOkZyb206VG86U3ViamVjdDpGcm9tOwoJYj1DM3BBMSt4NDEwU1UrejlVZ2tM
+b2xSLzliYlRlcWNkT0dpdzd4dFUxRW9HYnFCS1plSzVvRG1CN3F4M3QxNWtBcQoJIDNzMWIveWkv
+MEdIN1VVUDcxK2Y1dFRqNUNmYmNtRUticmg2am1NdXRaSGx3cFZybUlmSTRSREJZWUxyNExjVEtK
+aQoJIDhwN1ZHZCsya0tSVUthL2V0a3NweUoxOTNoeGVDTks3N21KaWVaUnhsR1ViS2JCM3d3MTdr
+OVZDNnVrUGNiWEkvaAoJIGZkVG5vU1puTVFqUlVXNDN1M2ZHazU3UWpSVGZIVWVvOEkzU0JUTGpC
+OEU0cWdxMmRHQytCRmxKbkVnb3pzSjZoMAoJIGFWbkU5TGV3Vy96RmVXWlFiYVBnV0xnVnc4TW5k
+cEg2MTBheUwzRkRrLzQxV09PQ0pJQm5HWmF1eXZaZ3hmUThWcAoJIERIL0VZTy9xVlN1bVE9PQpS
+ZWNlaXZlZDogYnkgbWFpbC51MTAuY3liZXJsYWIuZmhudy5jaCAoUG9zdGZpeCwgZnJvbSB1c2Vy
+aWQgMTAwMCkKCWlkIDEyMEJCNjU1MDY7IE1vbiwgMTMgTWF5IDIwMjQgMDk6MzM6NDggKzAwMDAg
+KFVUQykKRGF0ZTogTW9uLCAxMyBNYXkgMjAyNCAwOTozMzo0OCArMDAwMApGcm9tOiBkYW1qYW5A
+dTEwLmN5YmVybGFiLmZobncuY2gKVG86IHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoClN1Ympl
+Y3Q6IHRlc3RpbmcgZ3JleWxpc3RpbmcKTWVzc2FnZS1JRDogPDIwMjQwNTEzMDkzMzQ4LnNFYmdj
+JWRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KVXNlci1BZ2VudDogcy1uYWlsIHYxNC45LjIz
+CgpEaWVzIGlzdCBlaW5lIE5hY2hyaWNodCB2b24gRGFtamFuIE1saW5hciBhbiBWaWt0b3IgV2Vp
+bGVubWFuCgo=
+--1804289383-1715592829=:68672--
+
+From damjan@u10.cyberlab.fhnw.ch Mon Apr 29 08:38:42 2024
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+X-Original-To: damjan
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 6F70065509; Mon, 29 Apr 2024 08:38:42 +0000 (UTC)
+Date: Mon, 29 Apr 2024 08:38:42 +0000
+To: damjan@u10.cyberlab.fhnw.ch
+Subject: init
+User-Agent: s-nail v14.9.23
+Message-Id: <20240429084511.6F70065509@mail.u10.cyberlab.fhnw.ch>
+From: damjan <damjan@u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 8
+
+init
+
+From  Sun May 12 08:43:15 2024
+Return-Path: <>
+X-Original-To: damjan@postfix
+Delivered-To: damjan@postfix
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 34CB465AA3; Sun, 12 May 2024 08:43:15 +0000 (UTC)
+Date: Sun, 12 May 2024 08:43:15 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@postfix
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="E0E5F65A71.1715503395/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240512084315.34CB465AA3@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 9
+
+This is a MIME-encapsulated message.
+
+--E0E5F65A71.1715503395/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+    said: 450 4.1.8 <damjan@postfix>: Sender address rejected: Domain not found
+    (in reply to RCPT TO command)
+
+--E0E5F65A71.1715503395/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: E0E5F65A71
+X-Postfix-Sender: rfc822; damjan@postfix
+Arrival-Date: Thu, 25 Apr 2024 15:17:21 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 4.1.8
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 450 4.1.8 <damjan@postfix>: Sender address rejected:
+    Domain not found
+
+--E0E5F65A71.1715503395/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@postfix>
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id E0E5F65A71; Thu, 25 Apr 2024 15:17:21 +0000 (UTC)
+Subject: testing damjan
+To: <reflector@cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Thu, 25 Apr 2024 15:17:21 +0000
+Message-Id: <20240425151721.E0E5F65A71@mail.u10.cyberlab.fhnw.ch>
+From: damjan <damjan@postfix>
+
+testing
+
+--E0E5F65A71.1715503395/mail.u10.cyberlab.fhnw.ch--
+
+From  Mon May 13 09:31:59 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 5214965506; Mon, 13 May 2024 09:31:59 +0000 (UTC)
+Date: Mon, 13 May 2024 09:31:59 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="1392B65505.1715592719/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240513093159.5214965506@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 10
+
+This is a MIME-encapsulated message.
+
+--1392B65505.1715592719/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--1392B65505.1715592719/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 1392B65505
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 13 May 2024 09:31:59 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--1392B65505.1715592719/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1715592719;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=TY/vG4udxSIRekL6eMa3h2snUT0/Kk6Jdm7/cJQNlu0Jc82g0QxDwAtndOb7M6nni
+	 DhH7fqNSnL3QS8zh1hQM1XpoNKb6kCMitkvQYsayQJHRfxTtMF8UPQwpJXFrnp12xu
+	 U3lpkPWZCqwlKMejMskHO1f5W4W/pEB8XVMfhZkYCHKLjcGTuewoBcrNiP5L09mq65
+	 bhQ592wK4ZMNE1YGK7nyWEBBu5zv0F+WosVa+zf12ZReJ/zqaY3Qoio7l5akk8CiTK
+	 ICwNEbUD4JHExXFOKXDXRuO/eJ4EEtwS3bvVJlUJllYQocNtzOEFWpCh1KEKVNRt+I
+	 J52TC6iUkOVzg==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 1392B65505; Mon, 13 May 2024 09:31:59 +0000 (UTC)
+Date: Mon, 13 May 2024 09:31:59 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: testing greylisting
+Message-ID: <20240513093159.CDteI%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--1392B65505.1715592719/mail.u10.cyberlab.fhnw.ch--
+
+From  Mon May 13 09:27:51 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 42CDE65505; Mon, 13 May 2024 09:27:51 +0000 (UTC)
+Date: Mon, 13 May 2024 09:27:51 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="B750765504.1715592471/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240513092751.42CDE65505@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 11
+
+This is a MIME-encapsulated message.
+
+--B750765504.1715592471/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--B750765504.1715592471/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: B750765504
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 13 May 2024 09:27:50 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--B750765504.1715592471/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1715592470;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=E1ShtIYemE3gxPKD3x7SFdijowqitGjRWYIMfn9/y9qPji5qOy+fXNFcz4HoRv8Tl
+	 tPKZIkJzMqJpfNgfMZBUbeykrvRSGDFrJbCpwaNLN9akotSzYRvBzezcC0IKiIA7Gm
+	 12nabVAwB/6eL/6YvWBW3S03Y9zlD+czvGZY50oKn0gtjY8ZrKKzMlxjnBBu8vKW/M
+	 ty/aHIyVXKf/4nDwt7XareUoZFAAfOEF9IHZcaVRcLkPdM2O1v1tVutiINBCbl0mCt
+	 wp/CU+ZBWqMobi3A4DF2obAPUlw9vXj5RGlzoP0g5dRvjL3Gvp21c1int/yilWM9cl
+	 0unIKqm9xJNeg==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id B750765504; Mon, 13 May 2024 09:27:50 +0000 (UTC)
+Date: Mon, 13 May 2024 09:27:50 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: testing greylisting
+Message-ID: <20240513092750.enc7g%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--B750765504.1715592471/mail.u10.cyberlab.fhnw.ch--
+
+From  Sun May 12 08:47:45 2024
+Return-Path: <>
+X-Original-To: damjan@postfix
+Delivered-To: damjan@postfix
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 1040C6564E; Sun, 12 May 2024 08:47:45 +0000 (UTC)
+Date: Sun, 12 May 2024 08:47:45 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@postfix
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="224026556F.1715503665/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240512084745.1040C6564E@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 12
+
+This is a MIME-encapsulated message.
+
+--224026556F.1715503665/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<mlidam@hotmail.com>: connect to
+    hotmail-com.olc.protection.outlook.com[104.47.57.161]:25: Connection timed
+    out
+
+--224026556F.1715503665/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 224026556F
+X-Postfix-Sender: rfc822; damjan@postfix
+Arrival-Date: Sun, 28 Apr 2024 12:44:13 +0000 (UTC)
+
+Final-Recipient: rfc822; mlidam@hotmail.com
+Original-Recipient: rfc822;mlidam@hotmail.com
+Action: failed
+Status: 4.4.1
+Diagnostic-Code: X-Postfix; connect to
+    hotmail-com.olc.protection.outlook.com[104.47.57.161]:25: Connection timed
+    out
+
+--224026556F.1715503665/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@postfix>
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 224026556F; Sun, 28 Apr 2024 12:44:13 +0000 (UTC)
+Subject: test
+To: <mlidam@hotmail.com>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Sun, 28 Apr 2024 12:44:13 +0000
+Message-Id: <20240428124413.224026556F@mail.u10.cyberlab.fhnw.ch>
+From: damjan <damjan@postfix>
+
+this is message
+
+--224026556F.1715503665/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Sun May 12 09:04:40 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 79B5B6564E
+	for <damjan@u10.cyberlab.fhnw.ch>; Sun, 12 May 2024 09:04:40 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 5D4C0600B4
+	for <damjan@u10.cyberlab.fhnw.ch>; Sun, 12 May 2024 11:04:40 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([IPv6:::1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [IPv6:::1]) (amavisd-new, port 10024)
+	with ESMTP id MzDZunhmG0cR for <damjan@u10.cyberlab.fhnw.ch>;
+	Sun, 12 May 2024 11:04:40 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 1C87760143; Sun, 12 May 2024 11:04:40 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1715504680=:65005"
+Subject: reflected: Test email 12.5.2024
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Sun, 12 May 2024 11:04:40 +0200
+Message-Id: <20240512090440.1C87760143@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: OR
+X-UID: 13
+
+--1804289383-1715504680=:65005
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240512110440.65005@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1715504680=:65005
+Content-Type: application/octet-stream; name="tmp.8t2QuVFhk5.eml"
+Content-Disposition: attachment; filename="tmp.8t2QuVFhk5.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240512110440.65005.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFN1biBNYXkgMTIgMTE6MDQ6MzkgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgRDkxOEM2MDBFOAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFN1biwgMTIg
+TWF5IDIwMjQgMTE6MDQ6MzkgKzAyMDAgKENFU1QpClJlY2VpdmVkOiBmcm9tIHNydk1TRzAxLmN5
+YmVybGFiLmZobncuY2ggKFsxMjcuMC4wLjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cwMS5jeWJl
+cmxhYi5maG53LmNoIFsxMjcuMC4wLjFdKSAoYW1hdmlzZC1uZXcsIHBvcnQgMTAwMjQpCgl3aXRo
+IEVTTVRQIGlkIDhJVmRXRHhFbERJUCBmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsK
+CVN1biwgMTIgTWF5IDIwMjQgMTE6MDQ6MzkgKzAyMDAgKENFU1QpClJlY2VpdmVkLVNQRjogUGFz
+cyAobWFpbGZyb20pIGlkZW50aXR5PW1haWxmcm9tOyBjbGllbnQtaXA9MTkyLjE2OC45Ny4xODk7
+IGhlbG89bWFpbC51MTAuY3liZXJsYWIuZmhudy5jaDsgZW52ZWxvcGUtZnJvbT1kYW1qYW5AdTEw
+LmN5YmVybGFiLmZobncuY2g7IHJlY2VpdmVyPTxVTktOT1dOPiAKUmVjZWl2ZWQ6IGZyb20gbWFp
+bC51MTAuY3liZXJsYWIuZmhudy5jaCAodW5rbm93biBbMTkyLjE2OC45Ny4xODldKQoJYnkgc3J2
+TVNHMDEuY3liZXJsYWIuZmhudy5jaCAoUG9zdGZpeCkgd2l0aCBFU01UUFMgaWQgMTMzNjI2MDBC
+NAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFN1biwgMTIgTWF5IDIwMjQgMTE6
+MDQ6MzggKzAyMDAgKENFU1QpClJlY2VpdmVkOiBieSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNo
+IChQb3N0Zml4LCBmcm9tIHVzZXJpZCAxMDAwKQoJaWQgODEzNUY2NTc2RjsgU3VuLCAxMiBNYXkg
+MjAyNCAwOTowNDozOCArMDAwMCAoVVRDKQpEYXRlOiBTdW4sIDEyIE1heSAyMDI0IDA5OjA0OjM4
+ICswMDAwCkZyb206IGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaApUbzogcmVmbGVjdG9yQGN5
+YmVybGFiLmZobncuY2gKU3ViamVjdDogVGVzdCBlbWFpbCAxMi41LjIwMjQKTWVzc2FnZS1JRDog
+PDIwMjQwNTEyMDkwNDM4LjJNdGFsJWRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KVXNlci1B
+Z2VudDogcy1uYWlsIHYxNC45LjIzCgpEaWVzIGlzdCBlaW5lIE5hY2hyaWNodCB2b24gRGFtamFu
+IE1saW5hciBhbiBWaWt0b3IgV2VpbGVubWFuCgo=
+--1804289383-1715504680=:65005--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Sun May 12 12:02:35 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id E527B65563
+	for <damjan@u10.cyberlab.fhnw.ch>; Sun, 12 May 2024 12:02:35 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id CA687600DD
+	for <damjan@u10.cyberlab.fhnw.ch>; Sun, 12 May 2024 14:02:35 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id PhIvpe2QllAU for <damjan@u10.cyberlab.fhnw.ch>;
+	Sun, 12 May 2024 14:02:35 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id B71646012B; Sun, 12 May 2024 14:02:35 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1715515355=:65722"
+Subject: reflected: dkim test
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Sun, 12 May 2024 14:02:35 +0200
+Message-Id: <20240512120235.B71646012B@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: OR
+X-UID: 14
+
+--1804289383-1715515355=:65722
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240512140235.65722@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1715515355=:65722
+Content-Type: application/octet-stream; name="tmp.H4VjdpPNpG.eml"
+Content-Disposition: attachment; filename="tmp.H4VjdpPNpG.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240512140235.65722.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFN1biBNYXkgMTIgMTQ6MDI6MzUgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgQTk0RUE2MDExRQoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFN1biwgMTIg
+TWF5IDIwMjQgMTQ6MDI6MzUgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgU3ZFcDNtY1BoUnUxIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJU3VuLCAxMiBNYXkgMjAyNCAxNDowMjozNSArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCA0MEE3
+MTYwMERECglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgU3VuLCAxMiBNYXkgMjAy
+NCAxNDowMjozNSArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTU1MTUzNTU7CgliaD1LOVdwQ2trOWRlZTJwbEcvaWR0MGdXRjRUbHkyVU5OSmNFcnlMTFROSFRn
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9WnlFcGdTVFFHSU9aVGpmM2RrUjNE
+UHV6UkVseUc0ejZUaE82YXJxMW8yN3lubDkzUkhLemVKUTlUaXdkcHFWcTMKCSBjVG03YWpYWHAz
+c0NBSWZOQnpEVStHVDlmeVNXUU1vWURaM0VnMUVmZzVzQ1NOaUxqcTVTMzFORngwa1p5UmoyZksK
+CSBmZU5XYldWR29sVVB3VjYzWk8veWNaK3orcmxpMnFEem04WWYxbkZPb0ZLOWgwZHlQcklxVDgx
+UEdBYXZWUlZpRjYKCSBJNHFrblh3OXI3bGFCajhSOFAzMEpZZjRTOFl6RXUzVFJPbm93S1Q2YkJq
+ZFBZblNjN3hnWkFrUVdIbXpjcXlxYmkKCSAvMTlnSzhSbk5rT0txeXN3RVN1T2cxcVpScXpoa29B
+VUs0S0F3bmd3L3NOdFBGS3grZ0h4YVFCVDM0VWhITXpKVWMKCSBybGorZExsLytGTGJnPT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCAyNjQxQzY1NTY1OyBTdW4sIDEyIE1heSAyMDI0IDEyOjAyOjM1ICswMDAwIChV
+VEMpCkRhdGU6IFN1biwgMTIgTWF5IDIwMjQgMTI6MDI6MzUgKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBka2ltIHRlc3QKTWVzc2FnZS1JRDogPDIwMjQwNTEyMTIwMjM1LkhYaHk5JWRhbWphbkB1MTAu
+Y3liZXJsYWIuZmhudy5jaD4KVXNlci1BZ2VudDogcy1uYWlsIHYxNC45LjIzCgpEaWVzIGlzdCBl
+aW5lIE5hY2hyaWNodCB2b24gRGFtamFuIE1saW5hciBhbiBWaWt0b3IgV2VpbGVubWFuCgo=
+--1804289383-1715515355=:65722--
+
+From  Mon May 13 12:24:06 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 12BA265505; Mon, 13 May 2024 12:24:06 +0000 (UTC)
+Date: Mon, 13 May 2024 12:24:06 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="F0F8D65504.1715603046/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240513122406.12BA265505@mail.u10.cyberlab.fhnw.ch>
+Status: R
+X-UID: 15
+
+This is a MIME-encapsulated message.
+
+--F0F8D65504.1715603046/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--F0F8D65504.1715603046/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: F0F8D65504
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 13 May 2024 12:24:04 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--F0F8D65504.1715603046/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1715603044;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=jiH7LOOk9d4DMwlfMkqZcXl4SDU33VKoKWzfT6w1bSUXHYMAF8ggGBpdao+1f3rql
+	 lxEHyMvlNljvDqfLISzhtaVEwVexou54oiNpqM/Ii8SN5uVuMnwrMtiIw+a1i1w8bD
+	 cWR1kc6ZCMwGdIvp0kcaUoJ9hxKoCQ6+PghlKX0Si6y35qtZ+NETwkgqe7EC9qhnk6
+	 cVplyBAtDdm7Z1hWZOjUcc4aBRj3msQkmHyhzeHfVjljPX+04o31Z7t3ONvypSztK+
+	 2COJOHh3XRnq0zogZo/luERKPt/JijsiNWhCuyaxF3/X7jlfiOLZusn5/Tdf38XiSl
+	 Wo2zpax5uyO8Q==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id F0F8D65504; Mon, 13 May 2024 12:24:04 +0000 (UTC)
+Date: Mon, 13 May 2024 12:24:04 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: greylist test2
+Message-ID: <20240513122404.vIEcQ%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--F0F8D65504.1715603046/mail.u10.cyberlab.fhnw.ch--
+
+From student@u7.cyberlab.fhnw.ch Mon May 13 12:29:01 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id F101D65503
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 12:29:01 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1715603202;
+	bh=mP0EJsdCYSzQNVJzbTe4LGBCAS3//D6I136JuzWx5g8=;
+	h=Subject:To:Date:From:From;
+	b=BbosNyfNXRThH8fMqLw6p/RjIqt7nzh9AGmyzjZRnGGp8I9pNpLj52b7M0Elx47aP
+	 kYsi9zFYj2oEEF2J1oE7x/crWd5sauQkQxmsqFXizQCKtiLDPnZ9ay712B6x6ZswDV
+	 786UK+Nu1IWhh1ecfqDdoQPdyKp7qFM6j7xhvXDYmcy5xLnLtX+Xlp3sthwPWMhyY6
+	 9/ypg4XatEYikk8TPPFtCazLNGFgdzap2pSUEilU4Zd/UkyrvTYbcnlQPjj7YjkXgO
+	 tfTVsLlM2Nd2lhGSPy7mrr59rkPQhuk7KmmjO7lxdnv3X0RaJi3qxfNIgDown2xqeJ
+	 1PY4mEj7AeiAQ==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 8EA1DA3B27; Mon, 13 May 2024 14:26:42 +0200 (CEST)
+Subject: Nice To meet you, Single ladies in your area
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 14:26:42 +0200
+Message-Id: <20240513122642.8EA1DA3B27@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 16
+
+lololololo
+
+From student@u7.cyberlab.fhnw.ch Mon May 13 12:40:52 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Authentication-Results: mail.u10.cyberlab.fhnw.ch;
+	dkim=pass (2048-bit key; unprotected) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=UQDVVtBm;
+	dkim-atps=neutral
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id B82B765504
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 12:40:52 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1715603913;
+	bh=mP0EJsdCYSzQNVJzbTe4LGBCAS3//D6I136JuzWx5g8=;
+	h=Subject:To:Date:From:From;
+	b=UQDVVtBmImxQqEegZ1da+F82d0qnEwatumFatE+KYJU+49JQnlWisZwNdr2kqZMuC
+	 +pTxalILXTDByEW98dZkuG+CTypPDmfqAmUQqUhZ3wead3ghqwVH9hp+5mY4B7ZYnF
+	 I+QX475JVoFgwnLyaSfjYYxO04PcXV2f46XE6c7pPB4DSKC+jOTiCmAaR9vGcgcaxf
+	 +2qQ5kMJCWvfradNy44Ksly2HULJjoB16sHn7QYQ5fxeH6J3gi6OeETYUYWUD5cwoj
+	 Kbnft7NblARAiE7mFGPUP3qZQIrH9q/6Gddwvs0Phpnu+WyEFm4X7bbrbrwdpEnkPy
+	 /aR3CmMSHw9fw==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 9D937A3B27; Mon, 13 May 2024 14:38:33 +0200 (CEST)
+Subject: PLEASE ACCEPT MY DKIM
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 14:38:33 +0200
+Message-Id: <20240513123833.9D937A3B27@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: R
+X-UID: 17
+
+lololololo
+
+From student@u7.cyberlab.fhnw.ch Mon May 13 08:49:49 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id F0B3565C4E
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 08:49:49 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1715589189;
+	bh=IQc8/wiOSrEs8GUwW2vkLqzWCebLovKQ1fi45x5Q+Og=;
+	h=Subject:To:Date:From:From;
+	b=Ymrc8eonSoJ5Xn/Rq+OZ3GZplFyLrYrRELl++kYHE+I5QG3qCWUAkFBgV/3MYh/Lc
+	 3BBweQ9EcG4+qJwsCd/oCA4/wcBGxYoNffYlMPt27/sBaNcpsmO+7Z7noO64mt3MDo
+	 nYHw5bxyHzMj+k+N2ssbu61r1dn2ySE9n9MfZ74YbIIWdfu7u6iH1lA4ZIYJb3hq4d
+	 EoZcvPJ/DFGQmtB/ucqzDHXCTi0lgRVDJimMh2numn5ez7qAhzvLNopTF4XgyRkCBG
+	 K164o/v8fJlyCkmnF9qQvzN+QdP5DoPIKoZ4wOPfNyKnd4PRCbEKk+D/0sTKiucwh9
+	 ro8jvt31Td43g==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id F05C6A3570; Mon, 13 May 2024 10:33:09 +0200 (CEST)
+Subject: spf?
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 10:33:09 +0200
+Message-Id: <20240513083309.F05C6A3570@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 18
+
+spf?
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Mon May 13 12:54:18 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 652ED65506
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 12:54:18 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 518B86012B
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 14:54:18 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([IPv6:::1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [IPv6:::1]) (amavisd-new, port 10024)
+	with ESMTP id Qw6ReBy32VLl for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 13 May 2024 14:54:18 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 3F4B860156; Mon, 13 May 2024 14:54:18 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1715604858=:2362"
+Subject: reflected: greylist test3
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 14:54:18 +0200
+Message-Id: <20240513125418.3F4B860156@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: R
+X-UID: 19
+
+--1804289383-1715604858=:2362
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240513145418.2362@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1715604858=:2362
+Content-Type: application/octet-stream; name="tmp.xAcTSsULfx.eml"
+Content-Disposition: attachment; filename="tmp.xAcTSsULfx.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240513145418.2362.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIE1vbiBNYXkgMTMgMTQ6NTQ6MTggMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgMzQ4RjQ2MDEzQgoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IE1vbiwgMTMg
+TWF5IDIwMjQgMTQ6NTQ6MTggKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgNWRxdVdYWHZES1pKIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJTW9uLCAxMyBNYXkgMjAyNCAxNDo1NDoxOCArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCAxRDcy
+QTYwMTJCCglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgTW9uLCAxMyBNYXkgMjAy
+NCAxNDo1NDoxNyArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTU2MDQ4NTc7CgliaD1LOVdwQ2trOWRlZTJwbEcvaWR0MGdXRjRUbHkyVU5OSmNFcnlMTFROSFRn
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9WDI3WDlvcFUwMlJXa3UrVXoyMS9I
+Ym8xcGVnZlB3aThhaVNmWnhNcllQTHJ6SVZLTHdNSWFFNlVjcmgrRzRrdjAKCSBVbjhLU0hlTGQz
+Ui9HQlUwVkJMZWZYNDFvTlpGRGJRYmxuYXZGcGRJdzlhOFg5YXAwQjBlVitzd281WGdtY0wzVHkK
+CSArMHJDV3JSL0J2ZU0zYVZJK3ZxSERSOENwVkF4SkdTUEFiVmJVNzhycThiWWdoNFhQRGQ4UnpM
+bW9TdWsrbTNuK0MKCSBpcGgwVEZtRDNyVnZHTlI2bTUxQ3I4OVFSYUFoMnVicytpUnNhSUpZamxv
+VUZVeFNyUlVIMkw5ZmdNeWVkZWdUN3YKCSA0RXI3ckJpQnVPTVJxWUM4S1dZYkJOdGg3Y3B4YmZZ
+cTZ1MlJGTTBLMUhYVy9kVWJrUlNsZmZkZjVLRVArekJjVzAKCSBlYWVGOTlWSnBvZXl3PT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCAxNzc2MjY1NTE4OyBNb24sIDEzIE1heSAyMDI0IDEyOjU0OjE3ICswMDAwIChV
+VEMpCkRhdGU6IE1vbiwgMTMgTWF5IDIwMjQgMTI6NTQ6MTcgKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBncmV5bGlzdCB0ZXN0MwpNZXNzYWdlLUlEOiA8MjAyNDA1MTMxMjU0MTcucUZKa08lZGFtamFu
+QHUxMC5jeWJlcmxhYi5maG53LmNoPgpVc2VyLUFnZW50OiBzLW5haWwgdjE0LjkuMjMKCkRpZXMg
+aXN0IGVpbmUgTmFjaHJpY2h0IHZvbiBEYW1qYW4gTWxpbmFyIGFuIFZpa3RvciBXZWlsZW5tYW4K
+Cg==
+--1804289383-1715604858=:2362--
+
+From  Mon May 13 13:03:56 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 5B1D465506; Mon, 13 May 2024 13:03:56 +0000 (UTC)
+Date: Mon, 13 May 2024 13:03:56 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="E8D6665505.1715605436/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240513130356.5B1D465506@mail.u10.cyberlab.fhnw.ch>
+Status: R
+X-UID: 20
+
+This is a MIME-encapsulated message.
+
+--E8D6665505.1715605436/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@u7.cyberlab.fhnw.ch>: host mail.u7.cyberlab.fhnw.ch[192.168.97.58]
+    said: 550 5.1.1 <reflector@u7.cyberlab.fhnw.ch>: Recipient address
+    rejected: User unknown in local recipient table (in reply to RCPT TO
+    command)
+
+--E8D6665505.1715605436/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: E8D6665505
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 13 May 2024 12:54:07 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@u7.cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@u7.cyberlab.fhnw.ch
+Action: failed
+Status: 5.1.1
+Remote-MTA: dns; mail.u7.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.1.1 <reflector@u7.cyberlab.fhnw.ch>: Recipient
+    address rejected: User unknown in local recipient table
+
+--E8D6665505.1715605436/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1715604847;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=LX0rOJN8eZ2oKMPQVaPDpAdjQ+2OJdxjXBc0cQvaA1MpCXHZWhAza4SYO4YlI6SHG
+	 LGVKiOk/hnFsEsNFC0SV6jTcbQ9GYm5kikFaJTmrJSiLv5yDfBxWMoRzvivpG90yso
+	 F9rfuiijMUmJjAQ4eiswbRQlRI3N69CZf09ZN10KJhrSFAUsHDvOMaGKUCGRd5nCvZ
+	 ER+8d1xs0+o3HH8ubt5OBRTTcIwmp3P5OQqxSwVeJeJ5K2GBDTEziZwd2DwrrgPe4c
+	 jJQuUXhvDY+HPHKJhSyjm9V7MvQHDd1a3azef0rUSlWtcocEj9KGKAv8RbCvWstqZM
+	 ehq1QRGFjHn7Q==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id E8D6665505; Mon, 13 May 2024 12:54:07 +0000 (UTC)
+Date: Mon, 13 May 2024 12:54:07 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@u7.cyberlab.fhnw.ch
+Subject: greylist test3
+Message-ID: <20240513125407.6mK2Q%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--E8D6665505.1715605436/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Tue May 21 17:57:29 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 44F5E65A95
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 17:57:29 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id HCPB0TMjxKWA for <damjan@u10.cyberlab.fhnw.ch>;
+	Tue, 21 May 2024 17:57:21 +0000 (UTC)
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id EA974654C1
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 17:57:21 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id CE5D56013B
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 19:57:21 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([IPv6:::1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [IPv6:::1]) (amavisd-new, port 10024)
+	with ESMTP id x_RtUE3f3bf1 for <damjan@u10.cyberlab.fhnw.ch>;
+	Tue, 21 May 2024 19:57:21 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 7EC89601C7; Tue, 21 May 2024 19:57:21 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1716314241=:33273"
+Subject: ***UNCHECKED*** reflected: Test for amavis
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Tue, 21 May 2024 19:57:21 +0200
+Message-Id: <20240521175721.7EC89601C7@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: R
+X-UID: 21
+
+--1804289383-1716314241=:33273
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240521195721.33273@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1716314241=:33273
+Content-Type: application/octet-stream; name="tmp.LGa2j22rEb.eml"
+Content-Disposition: attachment; filename="tmp.LGa2j22rEb.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240521195721.33273.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFR1ZSBNYXkgMjEgMTk6NTc6MjEgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgNzIyQjc2MDE5RAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFR1ZSwgMjEg
+TWF5IDIwMjQgMTk6NTc6MjEgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgMFFxaU5EQVNZSE1tIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJVHVlLCAyMSBNYXkgMjAyNCAxOTo1NzoyMSArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCA0MTZB
+OTYwMTNCCglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgVHVlLCAyMSBNYXkgMjAy
+NCAxOTo1NzoyMSArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTYzMTQyNDE7CgliaD1LOVdwQ2trOWRlZTJwbEcvaWR0MGdXRjRUbHkyVU5OSmNFcnlMTFROSFRn
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9cCtwclFuN3RiSURwTFNZMzlaVjh1
+YjZRM2N4ZkNkVWhYL21TS1k0QXMwcFV6SENxc2Q3ZFY1OWNJRTkxaDlSeSsKCSByMmRkdHdVdFpz
+Uk8vWmJoZTdlbW1Hb1VOYlMxR21lRGlOM1NaamFYQnY5aXR0TWJSQ3MzYXR0ZnZFcEt6RVBpQlgK
+CSBvV2tkeXZUclpNaFVMbndYSWIvME92bGRJamt6Yk4wV1N5MlprQ0JjdnU3NlpDMW9vMCt1RW1z
+L2NJb1djd0RFVjIKCSB2YUUxU21DTkFxeUFWRnkyZW5mbEx2TC9Ra3lwZlhMVnRKcWFseU1wRHc2
+MUxQVWEvQ0kzVlczWFByTkwweEJ4WFcKCSB2d25ReUJaaU94VEQwQVE5dmVRUC9oNVl4RXR3UlVr
+R2FyWCsrZlMwMkVQSFBEYXBtTFpjNG5jRk5uWnVud24wYTgKCSBmamdldXl3V0FDMllnPT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCAwNUMxMjY1NTlDOyBUdWUsIDIxIE1heSAyMDI0IDE3OjU3OjIxICswMDAwIChV
+VEMpCkRhdGU6IFR1ZSwgMjEgTWF5IDIwMjQgMTc6NTc6MjEgKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBUZXN0IGZvciBhbWF2aXMKTWVzc2FnZS1JRDogPDIwMjQwNTIxMTc1NzIxLnJZeC1YJWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaD4KVXNlci1BZ2VudDogcy1uYWlsIHYxNC45LjIzCgpEaWVz
+IGlzdCBlaW5lIE5hY2hyaWNodCB2b24gRGFtamFuIE1saW5hciBhbiBWaWt0b3IgV2VpbGVubWFu
+Cgo=
+--1804289383-1716314241=:33273--
+
+From student@u7.cyberlab.fhnw.ch Mon May 13 13:03:57 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Authentication-Results: mail.u10.cyberlab.fhnw.ch;
+	dkim=pass (2048-bit key; unprotected) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=WO6jzSR/;
+	dkim-atps=neutral
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id 0DA036556F
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 13 May 2024 13:03:57 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1715605300;
+	bh=mP0EJsdCYSzQNVJzbTe4LGBCAS3//D6I136JuzWx5g8=;
+	h=Subject:To:Date:From:From;
+	b=WO6jzSR//GHaxRA+9zTXrMgWUROIImz3ONm48gItGh6WioyiUVefAivNn2XNdP0bK
+	 KOPDKI78Sg8T2CZhxn15TWaQjoi31yOuo3p7Yr4xJYS6/aGKG3cMx4HrzIEyB4YwXm
+	 dLA0bQRODUsDr9vf2n4g0muxwBtE3PdtJZYNrqzEQ/psNQSD25iQYjSLQof2a2xLk/
+	 9LOzu73n6iQAX5E6UTILLyIKHoFa2WcmIregufr2jbs7dZ24C+tMYMcBxyqSjn9S2D
+	 w6KoAwRTTQLS+beX2CfKyvsYiZcGcr2iztV5obLc9rc95f9edGxkEER/75iuqdP+bS
+	 PPja1CZc4DTMg==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 38BE1A3CA3; Mon, 13 May 2024 15:01:40 +0200 (CEST)
+Subject: Nice To meet you, Single ladies in your area
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 13 May 2024 15:01:40 +0200
+Message-Id: <20240513130140.38BE1A3CA3@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 22
+
+lololololo
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Tue May 21 18:05:16 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 22BAA65599
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 18:05:16 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id acGx9MX24btN for <damjan@u10.cyberlab.fhnw.ch>;
+	Tue, 21 May 2024 18:05:08 +0000 (UTC)
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id EACF565505
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 18:05:08 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id D38816013B
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 20:05:08 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tgSZw91GxEVL for <damjan@u10.cyberlab.fhnw.ch>;
+	Tue, 21 May 2024 20:05:08 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id C2A4B601C7; Tue, 21 May 2024 20:05:08 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1716314708=:33310"
+Subject: ***UNCHECKED*** reflected: Test for amavis 2.0
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Tue, 21 May 2024 20:05:08 +0200
+Message-Id: <20240521180508.C2A4B601C7@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: R
+X-UID: 23
+
+--1804289383-1716314708=:33310
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240521200508.33310@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1716314708=:33310
+Content-Type: application/octet-stream; name="tmp.YdzolcsytJ.eml"
+Content-Disposition: attachment; filename="tmp.YdzolcsytJ.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240521200508.33310.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFR1ZSBNYXkgMjEgMjA6MDU6MDggMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgQjY4ODQ2MDE5RAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFR1ZSwgMjEg
+TWF5IDIwMjQgMjA6MDU6MDggKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbMTI3LjAuMC4xXSkKCWJ5IGxvY2FsaG9zdCAoc3J2bXNn
+MDEuY3liZXJsYWIuZmhudy5jaCBbMTI3LjAuMC4xXSkgKGFtYXZpc2QtbmV3LCBwb3J0IDEwMDI0
+KQoJd2l0aCBFU01UUCBpZCAyd0ZkSUdXOTAtTDYgZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhu
+dy5jaD47CglUdWUsIDIxIE1heSAyMDI0IDIwOjA1OjA4ICswMjAwIChDRVNUKQpSZWNlaXZlZC1T
+UEY6IFBhc3MgKG1haWxmcm9tKSBpZGVudGl0eT1tYWlsZnJvbTsgY2xpZW50LWlwPTE5Mi4xNjgu
+OTcuMTg5OyBoZWxvPW1haWwudTEwLmN5YmVybGFiLmZobncuY2g7IGVudmVsb3BlLWZyb209ZGFt
+amFuQHUxMC5jeWJlcmxhYi5maG53LmNoOyByZWNlaXZlcj08VU5LTk9XTj4gClJlY2VpdmVkOiBm
+cm9tIG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKHVua25vd24gWzE5Mi4xNjguOTcuMTg5XSkK
+CWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFBTIGlkIDlF
+OUJENjAxM0IKCWZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2g+OyBUdWUsIDIxIE1heSAy
+MDI0IDIwOjA1OjA4ICswMjAwIChDRVNUKQpES0lNLVNpZ25hdHVyZTogdj0xOyBhPXJzYS1zaGEy
+NTY7IGM9cmVsYXhlZC9zaW1wbGU7IGQ9dTEwLmN5YmVybGFiLmZobncuY2g7CglzPW1haWw7IHQ9
+MTcxNjMxNDcwODsKCWJoPUs5V3BDa2s5ZGVlMnBsRy9pZHQwZ1dGNFRseTJVTk5KY0VyeUxMVE5I
+VGc9OwoJaD1EYXRlOkZyb206VG86U3ViamVjdDpGcm9tOwoJYj1QUjRHWjFpSi9KK2ZmU2c1NG9o
+TXlaODZvUzVmN1ByZzNmRW5NZWZSeWJ1dTNhK0JSdUFZRW9NUjBmS3p0K05qZgoJIHNEaGdDcmRV
+NUFsV25kK1loekNrZFR2bnorMkNGWmJ5RS8zMWZ6M2dwR1FqS1Z2Ykd5ZUJwUmUwdFFoWW9HMXJw
+TAoJIGhHU2Q3Ty93UTVwSElFdnlnOGZaREIyNXI1d2hwSDFCckpUSWVMY0RXNWR4bkNqcEpxOWNE
+Q1dxdlRTTDJTb0d0RgoJIHp6V3dvZHJkd0FGcVF5UXc4Y2RQREJKcVVHcTQ4aWxTa0RjREJnNWJH
+dDZneWNSNkZuT0pxUmFMcnlmdi9yMWlGMgoJIE1oWkZtWlZyNXUrNU5RcGVrWVlCcFNEZEs5VklZ
+YWZ3WDBtWDdNcEVpT1NhZUdxaEVoc0ZDUGRKdThiUDRTUGZ0VwoJIFNaaDBETnBDK05wbFE9PQpS
+ZWNlaXZlZDogYnkgbWFpbC51MTAuY3liZXJsYWIuZmhudy5jaCAoUG9zdGZpeCwgZnJvbSB1c2Vy
+aWQgMTAwMCkKCWlkIDVGRDU5NjU1OTk7IFR1ZSwgMjEgTWF5IDIwMjQgMTg6MDU6MDggKzAwMDAg
+KFVUQykKRGF0ZTogVHVlLCAyMSBNYXkgMjAyNCAxODowNTowOCArMDAwMApGcm9tOiBkYW1qYW5A
+dTEwLmN5YmVybGFiLmZobncuY2gKVG86IHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoClN1Ympl
+Y3Q6IFRlc3QgZm9yIGFtYXZpcyAyLjAKTWVzc2FnZS1JRDogPDIwMjQwNTIxMTgwNTA4Lmdwdlp4
+JWRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KVXNlci1BZ2VudDogcy1uYWlsIHYxNC45LjIz
+CgpEaWVzIGlzdCBlaW5lIE5hY2hyaWNodCB2b24gRGFtamFuIE1saW5hciBhbiBWaWt0b3IgV2Vp
+bGVubWFuCgo=
+--1804289383-1716314708=:33310--
+
+From  Tue May 21 18:06:58 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id CB42C65A95; Tue, 21 May 2024 18:06:58 +0000 (UTC)
+Date: Tue, 21 May 2024 18:06:58 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="928FE65599.1716314818/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240521180658.CB42C65A95@mail.u10.cyberlab.fhnw.ch>
+Status: R
+X-UID: 24
+
+This is a MIME-encapsulated message.
+
+--928FE65599.1716314818/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--928FE65599.1716314818/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 928FE65599
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Tue, 21 May 2024 18:06:58 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--928FE65599.1716314818/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1716314818;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=bsoiiEVLRGqlOEQev/QkiBmchTVwktPcKXyN0+vx9gLbPDomcGjDPHOgEZIEUnf1J
+	 f7Lc5/Raxb3fBoQHpZCtl/u/BlydDxhgXfRkaAN2F/fKCvbewrny9pblWkcbIqH5Ua
+	 bFWbnsbULiMHixZyQKI02gou92dls4SpX3z3Epr755B9QC1mGPcMJvOLhVOn+Ph7JQ
+	 RV16o4dCYoJK3B8p1rm9RoLl+RtPjiWR2VML+jpV3C5k/39Kf6RzFgIHWw2zDMB+Tu
+	 XzQAsnbm6mF+AY2I+qhU83Le8FSw/66UKBfQb6Xy7rfQuFWm+V0Fd4cNF4zS8azJUg
+	 B7KnXBXwDEzvA==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 928FE65599; Tue, 21 May 2024 18:06:58 +0000 (UTC)
+Date: Tue, 21 May 2024 18:06:58 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: Test for amavis 2.0
+Message-ID: <20240521180658.pt6yV%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--928FE65599.1716314818/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Tue May 21 18:08:17 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 68C9F65599
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 18:08:17 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 6HI3qZ4uNy0V for <damjan@u10.cyberlab.fhnw.ch>;
+	Tue, 21 May 2024 18:08:10 +0000 (UTC)
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 4131365505
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 18:08:10 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 2E4596013B
+	for <damjan@u10.cyberlab.fhnw.ch>; Tue, 21 May 2024 20:08:10 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 4oJCWb0ZP849 for <damjan@u10.cyberlab.fhnw.ch>;
+	Tue, 21 May 2024 20:08:10 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 1D15F601C7; Tue, 21 May 2024 20:08:10 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1716314890=:33345"
+Subject: ***UNCHECKED*** reflected: Test for amavis 2.0
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Tue, 21 May 2024 20:08:10 +0200
+Message-Id: <20240521180810.1D15F601C7@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: OR
+X-UID: 25
+
+--1804289383-1716314890=:33345
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240521200810.33345@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1716314890=:33345
+Content-Type: application/octet-stream; name="tmp.pM6Qnym5oq.eml"
+Content-Disposition: attachment; filename="tmp.pM6Qnym5oq.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240521200810.33345.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFR1ZSBNYXkgMjEgMjA6MDg6MTAgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgMTE3NDk2MDE5RAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFR1ZSwgMjEg
+TWF5IDIwMjQgMjA6MDg6MTAgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgVUgtLW8tVHZhNEgyIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJVHVlLCAyMSBNYXkgMjAyNCAyMDowODowOSArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCBFRUI1
+RTYwMTNCCglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgVHVlLCAyMSBNYXkgMjAy
+NCAyMDowODowOSArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTYzMTQ4ODk7CgliaD1LOVdwQ2trOWRlZTJwbEcvaWR0MGdXRjRUbHkyVU5OSmNFcnlMTFROSFRn
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9YmhXK053UUZjblBCRG5IY1d0R1Bq
+ZFVCUndnV3RGcHoyb3F0MG1nSTIxNERmL3EwYlVsZE1jNXAvSEU3Rk9MUVkKCSAwSkVkb0ZxT3Ev
+aTlsU1dkOXNOcXk4NVZEU1J3SlVMbm9GazFkUjNYTFcwemxIZGw5eTRhby9CYkFUZTJKSFFKOGwK
+CSBUcDNNNnB0UjRyQzlzZGtOeCtVQ3R3RWNPM0RsMXgwMmI3RTU2Q0s2NThEd2ZtL3RGSjVYclg3
+RXdObG5CYnA4UDkKCSBEbDRhcUtMa1FHWnNmdXE3Mi9WS1hxZ05pQUVyTVlHbjV1ZHNTU1R0QmtR
+Y0xFZDFqR3dzRUlzRXBsaThvc0VHbnEKCSBLMWNiVkVVVERqYnk2d1EveFRwYTVwTlJ6L3M1TU1m
+WFlZOTlWWlZCZ1FYM1JFNVhFaUx2eUZJZHVnOXgrNGxFOUwKCSBxYzFWZk5IQVdHRnRnPT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCBEMTZDQTY1NTk5OyBUdWUsIDIxIE1heSAyMDI0IDE4OjA4OjA5ICswMDAwIChV
+VEMpCkRhdGU6IFR1ZSwgMjEgTWF5IDIwMjQgMTg6MDg6MDkgKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBUZXN0IGZvciBhbWF2aXMgMi4wCk1lc3NhZ2UtSUQ6IDwyMDI0MDUyMTE4MDgwOS5ISDhqNiVk
+YW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2g+ClVzZXItQWdlbnQ6IHMtbmFpbCB2MTQuOS4yMwoK
+RGllcyBpc3QgZWluZSBOYWNocmljaHQgdm9uIERhbWphbiBNbGluYXIgYW4gVmlrdG9yIFdlaWxl
+bm1hbgoK
+--1804289383-1716314890=:33345--
+
+From  Wed May 22 09:39:22 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 231536E94D; Wed, 22 May 2024 09:39:22 +0000 (UTC)
+Date: Wed, 22 May 2024 09:39:22 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="7CF3C6E94C.1716370762/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240522093922.231536E94D@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 26
+
+This is a MIME-encapsulated message.
+
+--7CF3C6E94C.1716370762/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--7CF3C6E94C.1716370762/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 7CF3C6E94C
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Wed, 22 May 2024 09:39:21 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--7CF3C6E94C.1716370762/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1716370761;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=JImiOSm4jYAfAKv5M9Srp9Czm7DI3VhMhZugcTiSw74WbhteVSJdPV7opB/VhD3f4
+	 qCAnfaJqAuXba2Wl+X5qzfpPdleQ28K7RbGOhwihbF8RHCDuIAEQD6fvpAFqQqvSib
+	 VyybUurZCEcg/+FT3pakIIj4B83yccBqYzIljCuPtb7MSik9ZamjusJBUQXbwZRjQd
+	 uBxHM/F0P/9JyZLeYRIwNkjKqJdP89DAI9r0Ey4QaIsb/SDKsJJABvH0Fkw4feJFeB
+	 wEw9v9K22J5PshlGdtjZv7KNposE6922CGpnKuRlLo0si0y5PlXYenqBY/vLl4mbCw
+	 Mx0AhtrKnEVgg==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 7CF3C6E94C; Wed, 22 May 2024 09:39:21 +0000 (UTC)
+Date: Wed, 22 May 2024 09:39:21 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: ns2 testing
+Message-ID: <20240522093921.JOflS%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--7CF3C6E94C.1716370762/mail.u10.cyberlab.fhnw.ch--
+
+From  Wed May 22 09:42:12 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id EE5646E94D; Wed, 22 May 2024 09:42:12 +0000 (UTC)
+Date: Wed, 22 May 2024 09:42:12 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="AE94165A95.1716370932/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240522094212.EE5646E94D@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 27
+
+This is a MIME-encapsulated message.
+
+--AE94165A95.1716370932/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--AE94165A95.1716370932/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: AE94165A95
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Wed, 22 May 2024 09:42:12 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--AE94165A95.1716370932/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1716370932;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=odbBbG4ObdCcupJvzBPqx6gteeiiPwhUK/8ggG0nSwJVBg8BlgGG9imqXNQ135rUr
+	 3Q/mzqBhfXtJsudYSs3tChCIcrQKVXf3luyOYkbitI+xfUCbosaWGVH2aEH8NO1ceQ
+	 TkIRZF6oXicrqXBq7IEneTwII5I9p+u6HrSwHvtdBboBwpEfjS5iFwK7aDgwH2gvlH
+	 3TknTHo2t4pW6AWrEQYA/4QtP2BlvmoOE+i/uHhBkhGqgbnGsOunu+WEzPzggEpg8E
+	 3ZKKIYC4JalfxOpaEnoCTmqeVLaY1qVtDkYwUlXaRe2PwAM/SDTNAZ7oTVlJNhdmnr
+	 4KO6DuihhKloA==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id AE94165A95; Wed, 22 May 2024 09:42:12 +0000 (UTC)
+Date: Wed, 22 May 2024 09:42:12 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: ns2 testing
+Message-ID: <20240522094212.GidHA%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--AE94165A95.1716370932/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Wed May 22 09:43:51 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 8B16A65A95
+	for <damjan@u10.cyberlab.fhnw.ch>; Wed, 22 May 2024 09:43:51 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id s9sOyKDK9L48 for <damjan@u10.cyberlab.fhnw.ch>;
+	Wed, 22 May 2024 09:43:44 +0000 (UTC)
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 5644D654C1
+	for <damjan@u10.cyberlab.fhnw.ch>; Wed, 22 May 2024 09:43:44 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 3F6C76004D
+	for <damjan@u10.cyberlab.fhnw.ch>; Wed, 22 May 2024 11:43:44 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id I-LHZ_-O8Is5 for <damjan@u10.cyberlab.fhnw.ch>;
+	Wed, 22 May 2024 11:43:44 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 2CB2D60136; Wed, 22 May 2024 11:43:44 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1716371024=:35520"
+Subject: ***UNCHECKED*** reflected: ns2 testing
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Wed, 22 May 2024 11:43:44 +0200
+Message-Id: <20240522094344.2CB2D60136@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: OR
+X-UID: 28
+
+--1804289383-1716371024=:35520
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240522114344.35520@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1716371024=:35520
+Content-Type: application/octet-stream; name="tmp.DvDVcThA0P.eml"
+Content-Disposition: attachment; filename="tmp.DvDVcThA0P.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240522114344.35520.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFdlZCBNYXkgMjIgMTE6NDM6NDQgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgMUExRDY2MDBFNQoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFdlZCwgMjIg
+TWF5IDIwMjQgMTE6NDM6NDQgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgSGJWX0h3bmYtMnlDIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJV2VkLCAyMiBNYXkgMjAyNCAxMTo0Mzo0NCArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCBGMjky
+ODYwMDRECglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgV2VkLCAyMiBNYXkgMjAy
+NCAxMTo0Mzo0MyArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTYzNzEwMjM7CgliaD1LOVdwQ2trOWRlZTJwbEcvaWR0MGdXRjRUbHkyVU5OSmNFcnlMTFROSFRn
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9anpyVkNPU09UN3pHSFA3L0hMYWwx
+K2ljd3lVUWRybEwzTVZidzNLcDNXR09qODQyTWZ0K29XVno5NEd4RW9RaXQKCSBkTVJ0bmE0TElH
+dHZ1QWROOWNpWU5Fc1RZU1VqYTBhV3Z5RjQvdzREUStGbE1xYUtSc2xlQ21Fa2tBWjZkcGE1SDUK
+CSB3c1pQbkdrd09pQ3BJeDlRQ2FoT3NUWVZrK3haVSsxdDRoZlplMm50VmZXbjFZTnhZblRPTnkw
+bU5GYjNsRWduTkwKCSBJcVgzT0lzQ3VBNmZVaFhFVWJsRFA5QTNHWm1sQzdWamh0MGZFc05OSXVV
+Rld2WWQyNGVkUG5YdmtRbHJCaHFvY2YKCSAyeWxNSCtnNHZjcFM4UnBNOUdHR2ZUbWhTcWxENEV2
+SU5XMXNranpWNDFoYTV0NmttRXRCTlMxNjVSdUVxQ0ZBajkKCSBBYTZNWWVlNVBIUGtnPT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCBEQjAwQzY1QTk1OyBXZWQsIDIyIE1heSAyMDI0IDA5OjQzOjQzICswMDAwIChV
+VEMpCkRhdGU6IFdlZCwgMjIgTWF5IDIwMjQgMDk6NDM6NDMgKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBuczIgdGVzdGluZwpNZXNzYWdlLUlEOiA8MjAyNDA1MjIwOTQzNDMucHRELVclZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoPgpVc2VyLUFnZW50OiBzLW5haWwgdjE0LjkuMjMKCkRpZXMgaXN0
+IGVpbmUgTmFjaHJpY2h0IHZvbiBEYW1qYW4gTWxpbmFyIGFuIFZpa3RvciBXZWlsZW5tYW4KCg==
+
+--1804289383-1716371024=:35520--
+
+From  Wed May 22 10:34:52 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id F1B3A60813; Wed, 22 May 2024 10:34:52 +0000 (UTC)
+Date: Wed, 22 May 2024 10:34:52 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="86CEF60812.1716374092/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240522103452.F1B3A60813@mail.u10.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 29
+
+This is a MIME-encapsulated message.
+
+--86CEF60812.1716374092/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--86CEF60812.1716374092/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 86CEF60812
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Wed, 22 May 2024 10:34:52 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--86CEF60812.1716374092/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1716374092;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=LEE2eTT9mrzX3cbNie4cilfQ5XRaGgWJursX2aqanPiUbaoJkvdWq7rYfZUv1Cfow
+	 B4fA8vx9XWA/aRWI0NzMHIwBTiNARS7lI12Mr0g4jRfryhVY7jlEjtaqDMFVrtb193
+	 8rk/PFfwjg17Up5lfW/6AWBmx8MxJu0EIJYjP02pyKNw6BMXeq2txP8iE1I/DImFZA
+	 y509/3p4JZ85Nq6CPYHdUEcXHj1tC+T75bThJhnf75+assCtpfO3x0QNULLv2vNMbB
+	 z1DTaHuv3PO3v550WrQ3qKQsPx69iqLcOHroYpYZEDkPRnIFE1VqMg5UfHerbP36s2
+	 6yIgXPO2Dx52g==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 86CEF60812; Wed, 22 May 2024 10:34:52 +0000 (UTC)
+Date: Wed, 22 May 2024 10:34:52 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: test for clamav
+Message-ID: <20240522103452.fWn80%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--86CEF60812.1716374092/mail.u10.cyberlab.fhnw.ch--
+
+From student@u7.cyberlab.fhnw.ch Mon May 27 10:50:01 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Authentication-Results: mail.u10.cyberlab.fhnw.ch;
+	dkim=pass (2048-bit key; unprotected) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=pBHQ2VDj;
+	dkim=pass (2048-bit key) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=pBHQ2VDj;
+	dkim-atps=neutral
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 58E2C60672
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 10:50:01 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ix9tMTkt5u8J for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 10:49:59 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id 0568C60671
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 10:49:48 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716806864;
+	bh=r8vMw0IV2aN2nQOE2CndNoAt8gYcJzt8OSJEm1MwdgE=;
+	h=Subject:To:Date:From:From;
+	b=pBHQ2VDjFw3ob2dZI1seUxe3VBPynmSwux4If0a3Uauh7ZruOh2oSHczTAWJKtskA
+	 ajNkGlLB0hh6b55q1S6OtNnoLKSI2Qw3kxazss36Dk5Vo2Rt0aTAicg2GiP4lTQQch
+	 X4gFm4bbUeynwAOdL++r3jnlBNyv0dG4MqIYOGcs5DRX8KV4KkO3KW+KgeQ8pRSm2q
+	 M2LLbQWrWsx9zPUCH/NppoWhGvQFiGZKxRgbHygTkYvHi0NOuzWQADFu0w8ck3r0+r
+	 MBIsNpFLyTZ8MgFWTgQu4SUP55nsPq0LQgGXmXMrabXNExVZcEOh2GUqRPXTQ2oLXp
+	 hQPs/Q29mnysw==
+Received: from localhost (localhost [127.0.0.1])
+	by u7.cyberlab.fhnw.ch (Postfix) with ESMTP id D1709A2104
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 12:47:44 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at u7.cyberlab.fhnw.ch
+Received: from u7.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u7.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id yPlNEARqmUuu for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 12:47:44 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716806864;
+	bh=r8vMw0IV2aN2nQOE2CndNoAt8gYcJzt8OSJEm1MwdgE=;
+	h=Subject:To:Date:From:From;
+	b=pBHQ2VDjFw3ob2dZI1seUxe3VBPynmSwux4If0a3Uauh7ZruOh2oSHczTAWJKtskA
+	 ajNkGlLB0hh6b55q1S6OtNnoLKSI2Qw3kxazss36Dk5Vo2Rt0aTAicg2GiP4lTQQch
+	 X4gFm4bbUeynwAOdL++r3jnlBNyv0dG4MqIYOGcs5DRX8KV4KkO3KW+KgeQ8pRSm2q
+	 M2LLbQWrWsx9zPUCH/NppoWhGvQFiGZKxRgbHygTkYvHi0NOuzWQADFu0w8ck3r0+r
+	 MBIsNpFLyTZ8MgFWTgQu4SUP55nsPq0LQgGXmXMrabXNExVZcEOh2GUqRPXTQ2oLXp
+	 hQPs/Q29mnysw==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 81FF1A216F; Mon, 27 May 2024 12:47:44 +0200 (CEST)
+Subject: Testing DKIM signing
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 27 May 2024 12:47:44 +0200
+Message-Id: <20240527104744.81FF1A216F@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: R
+X-UID: 30
+
+Subject Body
+
+From student@u7.cyberlab.fhnw.ch Mon May 27 11:02:01 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Authentication-Results: mail.u10.cyberlab.fhnw.ch;
+	dkim=pass (2048-bit key; unprotected) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=rjabNFrr;
+	dkim=pass (2048-bit key) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=rjabNFrr;
+	dkim-atps=neutral
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 4E53060673
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:02:01 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id eXlGoi23Onb0 for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 11:02:01 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id 168D560672
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:02:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716807596;
+	bh=Hw7/w+PPJMmJ+jLqfNc4ZvlOi3M5DMi02VTtxaMJRiI=;
+	h=Subject:To:Date:From:From;
+	b=rjabNFrrD3CYNczjzEJgG49Y9TArAftLCXKRIn9mVITMXtZuIaYmFessSK8ifaBbX
+	 duUmBLaGHvyPXaeei33nC2QeyqoOqZ1WvzVyysvlbCvFoQeIuFJB36mPYL+592JSC3
+	 nyP1DiEIH2PJNqO7BnsgfU4jEreb3zFdmoOuHHdUcAdCpXKNkkIEY3kmta1euqowFs
+	 WJ7g6TkYVvB6i8qJE/HciXp2D6jiU7/UPxma4m6fVzT6+f5BUXKTrAAUrou87U7ojk
+	 D/gfiCcJgGaiZNYqh8zDJrH8oKE4KYGkKWPv2go9Pm3WmOtHg3yfCq0lUQYTg/ALS6
+	 vgHRZl6EV/HJA==
+Received: from localhost (localhost [127.0.0.1])
+	by u7.cyberlab.fhnw.ch (Postfix) with ESMTP id B6595A2189
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 12:59:56 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at u7.cyberlab.fhnw.ch
+Received: from u7.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u7.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 9Nz3QNKlHt3C for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 12:59:56 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716807596;
+	bh=Hw7/w+PPJMmJ+jLqfNc4ZvlOi3M5DMi02VTtxaMJRiI=;
+	h=Subject:To:Date:From:From;
+	b=rjabNFrrD3CYNczjzEJgG49Y9TArAftLCXKRIn9mVITMXtZuIaYmFessSK8ifaBbX
+	 duUmBLaGHvyPXaeei33nC2QeyqoOqZ1WvzVyysvlbCvFoQeIuFJB36mPYL+592JSC3
+	 nyP1DiEIH2PJNqO7BnsgfU4jEreb3zFdmoOuHHdUcAdCpXKNkkIEY3kmta1euqowFs
+	 WJ7g6TkYVvB6i8qJE/HciXp2D6jiU7/UPxma4m6fVzT6+f5BUXKTrAAUrou87U7ojk
+	 D/gfiCcJgGaiZNYqh8zDJrH8oKE4KYGkKWPv2go9Pm3WmOtHg3yfCq0lUQYTg/ALS6
+	 vgHRZl6EV/HJA==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 8C7F2A218B; Mon, 27 May 2024 12:59:56 +0200 (CEST)
+Subject: Testing DKIM signing again
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 27 May 2024 12:59:56 +0200
+Message-Id: <20240527105956.8C7F2A218B@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: R
+X-UID: 31
+
+Subject Body again 
+
+From student@u7.cyberlab.fhnw.ch Mon May 27 11:27:16 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Authentication-Results: mail.u10.cyberlab.fhnw.ch;
+	dkim=temperror header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=KQQW42V9;
+	dkim=pass (2048-bit key; unprotected) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=KQQW42V9;
+	dkim-atps=neutral
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id AD0216080E
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:27:16 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id s2cHVhBjJvO4 for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 11:27:16 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id 4AFD960671
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:27:06 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716808493;
+	bh=6tjqbOf8i4d14yiZvGoezjf7ZLPcse2LWYxfpHayQQc=;
+	h=To:Date:From:From;
+	b=KQQW42V9kBUa0t84PFZ2ems171B9eq5w9E2hfMt29cOXbVa2e21Elvn7hRussbaKC
+	 ePHY+EvntMSrRUIsZ8ulBN7CyXciGygVrrV+FCSOTWGh9StNaWYcuAOhegfPP8pUE5
+	 iujyX4Zy/J78n3RZZ7C9zi2oHvukfdRvagqhNcv5Q6+oHLqmtl2MRK4w4c4hMgiFmh
+	 1vnNm6YLqZa2XiFcZ56F6FdFhL5wxNZgYO5zIgiWJRZkYDBAKRP3sSHbe46MEAs0+x
+	 H18PKmOjPlQqjBJaggk/uEGjaBKMGb1C0Qby7pQ1qlZfsP2a859Mn94ocAwWWqPN9g
+	 Gw2QGMjUiuEZQ==
+Received: from localhost (localhost [127.0.0.1])
+	by u7.cyberlab.fhnw.ch (Postfix) with ESMTP id 00FD7A2189
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 13:14:54 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at u7.cyberlab.fhnw.ch
+Received: from u7.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u7.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id BAhoT-7UMvdK for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 13:14:53 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716808493;
+	bh=6tjqbOf8i4d14yiZvGoezjf7ZLPcse2LWYxfpHayQQc=;
+	h=To:Date:From:From;
+	b=KQQW42V9kBUa0t84PFZ2ems171B9eq5w9E2hfMt29cOXbVa2e21Elvn7hRussbaKC
+	 ePHY+EvntMSrRUIsZ8ulBN7CyXciGygVrrV+FCSOTWGh9StNaWYcuAOhegfPP8pUE5
+	 iujyX4Zy/J78n3RZZ7C9zi2oHvukfdRvagqhNcv5Q6+oHLqmtl2MRK4w4c4hMgiFmh
+	 1vnNm6YLqZa2XiFcZ56F6FdFhL5wxNZgYO5zIgiWJRZkYDBAKRP3sSHbe46MEAs0+x
+	 H18PKmOjPlQqjBJaggk/uEGjaBKMGb1C0Qby7pQ1qlZfsP2a859Mn94ocAwWWqPN9g
+	 Gw2QGMjUiuEZQ==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id C8D13A218B; Mon, 27 May 2024 13:14:53 +0200 (CEST)
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 27 May 2024 13:14:53 +0200
+Message-Id: <20240527111453.C8D13A218B@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: R
+X-UID: 32
+
+here is 10 million dollars
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Mon May 27 11:38:29 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 78DAF6080E
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:38:29 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 47MHVIKE5wh4 for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 11:38:29 +0000 (UTC)
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 4CD446080D
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:38:29 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 3C203600AC
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 13:38:29 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([IPv6:::1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [IPv6:::1]) (amavisd-new, port 10024)
+	with ESMTP id FOiS597hMfAk for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 13:38:29 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 2A02860161; Mon, 27 May 2024 13:38:29 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1716809909=:49468"
+Subject: reflected: Virus
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 27 May 2024 13:38:29 +0200
+Message-Id: <20240527113829.2A02860161@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: OR
+X-UID: 33
+
+--1804289383-1716809909=:49468
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240527133829.49468@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1716809909=:49468
+Content-Type: application/octet-stream; name="tmp.qZSvTs0pJx.eml"
+Content-Disposition: attachment; filename="tmp.qZSvTs0pJx.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240527133829.49468.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIE1vbiBNYXkgMjcgMTM6Mzg6MjkgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgMUQ5NjM2MDE0NAoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IE1vbiwgMjcg
+TWF5IDIwMjQgMTM6Mzg6MjkgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgMHJWYVVXbEQyZy1tIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJTW9uLCAyNyBNYXkgMjAyNCAxMzozODoyOSArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCAwM0Ux
+NTYwMEFDCglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgTW9uLCAyNyBNYXkgMjAy
+NCAxMzozODoyOCArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTY4MDk5MDg7CgliaD1LOVdwQ2trOWRlZTJwbEcvaWR0MGdXRjRUbHkyVU5OSmNFcnlMTFROSFRn
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9WnUzdHBkTzFydGRjbXErUExYWGd0
+SzFFa3UvWStNb3Qwa1RoRVp5ZnNrZHozNjE2S29za2wzKzRLU2VPTHJvMWkKCSA2dmMyVis0UU1i
+V2JNRFhXWmk2Q0k0azQwcHAxc01SdkRRaGJza2w1SGY1bEphWkltbGZPc2pIbkhJZC8xL0MyNlIK
+CSAwRlZDK2ZQOUN1QVBoSFhSbXFaU00wbWxaaG5FVVRkSnlWdjBud3VuQjUrNW0wcnFkdnd4b081
+SjMxRWh6VVhWUW4KCSBuVjdUUUY4bUpLZFBjeDFxTGR2dlltblN2a2gvQnJqdVRrR3V6djdpenFq
+OFIybWxVS1JKUTJTc1AvWnJJWkNZd2EKCSB5TFVFS2p6Qys4NXF6N2tpRjMrRzM1WUFMVjJTck5Q
+a1p3YXc0aHVLejRBM1hoQnVKK3NBcEpNcUpUanEwVWFMckcKCSA1VnpYKzcyTncyTWZ3PT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCBCRUExNTYwODBFOyBNb24sIDI3IE1heSAyMDI0IDExOjM4OjI4ICswMDAwIChV
+VEMpCkRhdGU6IE1vbiwgMjcgTWF5IDIwMjQgMTE6Mzg6MjggKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBWaXJ1cwpNZXNzYWdlLUlEOiA8MjAyNDA1MjcxMTM4MjguWHYwSEslZGFtamFuQHUxMC5jeWJl
+cmxhYi5maG53LmNoPgpVc2VyLUFnZW50OiBzLW5haWwgdjE0LjkuMjMKCkRpZXMgaXN0IGVpbmUg
+TmFjaHJpY2h0IHZvbiBEYW1qYW4gTWxpbmFyIGFuIFZpa3RvciBXZWlsZW5tYW4KCg==
+--1804289383-1716809909=:49468--
+
+From  Mon May 27 11:41:41 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 7CA4060814; Mon, 27 May 2024 11:41:41 +0000 (UTC)
+Date: Mon, 27 May 2024 11:41:41 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3A05B6080E.1716810101/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240527114141.7CA4060814@mail.u10.cyberlab.fhnw.ch>
+Status: R
+X-UID: 34
+
+This is a MIME-encapsulated message.
+
+--3A05B6080E.1716810101/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--3A05B6080E.1716810101/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 3A05B6080E
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 27 May 2024 11:41:41 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--3A05B6080E.1716810101/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1716810101;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=sga37bgxy3imQsAG3nAaQFOm2AAKZ+fCV8oF4/ITg8nWF6e+T+mH5Y1L+aE6hKJTK
+	 pVgVcbxb8fBSqMIFElSxCX3pQ7C6V9ShUDsgLpLEh+pogR2B663FHMB+yAbeEHauH+
+	 S+DWqZc0XGX2b26+zZA1vNVKjE4tcVY1gftnPtmdEwOSsBw0NOyAUBOyfGlevlU9lG
+	 49Xs2EytpBVXAbpoTpqJM2cSMp18zC8bpDBPiQSs8R2ihS+9j0D8kJVU0GcjpEtxVP
+	 DjvJnwsDlpYMg8s6Jpn0Pzxj9wPlBcpCVRFfinjoGICf8BdVI0Zi/4i60ylUqTmCVv
+	 24jZg2ARtU5cQ==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 3A05B6080E; Mon, 27 May 2024 11:41:41 +0000 (UTC)
+Date: Mon, 27 May 2024 11:41:41 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: virus
+Message-ID: <20240527114141.krSQL%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--3A05B6080E.1716810101/mail.u10.cyberlab.fhnw.ch--
+
+From  Mon May 27 11:42:22 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id D69C960814; Mon, 27 May 2024 11:42:22 +0000 (UTC)
+Date: Mon, 27 May 2024 11:42:22 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="B66136080E.1716810142/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240527114222.D69C960814@mail.u10.cyberlab.fhnw.ch>
+Status: R
+X-UID: 35
+
+This is a MIME-encapsulated message.
+
+--B66136080E.1716810142/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--B66136080E.1716810142/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: B66136080E
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Mon, 27 May 2024 11:42:22 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--B66136080E.1716810142/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1716810142;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=oDRSTUPeT6njpmfvNVYOuYer00ZCpdHRfFeplBGWkAvCXwXExxvLk6l/ak2JvC3D5
+	 XwFEb18g88jK0u9Ax+uWhShuHb14eDlRS9cuLDVue9lDDGgQsltv8N4vGWRun5JiBh
+	 mFj5gPpOEOdFLcKxyaNUO5Bll/uj+A8gjkzIsgDf0GsQu6GeyrBH9uxjn8IBsnHn4g
+	 MO/s51sA7Ioq7HjSuPbfe+aqnDD/CDXBE073WBI0VKocexkS9G1foeYGHDyKhQ/cEj
+	 eMdoU7uzP4MxskXkBx8rhAF8H/Ep9GOJp/LDT9+HRmH1IKBEfncnCeXenP5rAmVkqV
+	 BurPKMJhHNFRQ==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id B66136080E; Mon, 27 May 2024 11:42:22 +0000 (UTC)
+Date: Mon, 27 May 2024 11:42:22 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: virus
+Message-ID: <20240527114222.bhVLc%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--B66136080E.1716810142/mail.u10.cyberlab.fhnw.ch--
+
+From student@u7.cyberlab.fhnw.ch Mon May 27 11:01:48 2024
+Return-Path: <student@u7.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Authentication-Results: mail.u10.cyberlab.fhnw.ch;
+	dkim=pass (2048-bit key; unprotected) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=PXEiYnCE;
+	dkim=pass (2048-bit key) header.d=u7.cyberlab.fhnw.ch header.i=@u7.cyberlab.fhnw.ch header.a=rsa-sha256 header.s=default header.b=PXEiYnCE;
+	dkim-atps=neutral
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id B3DC760673
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:01:48 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id UeKIt2c3MuB5 for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 11:01:48 +0000 (UTC)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.58; helo=u7.cyberlab.fhnw.ch; envelope-from=student@u7.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from u7.cyberlab.fhnw.ch (unknown [192.168.97.58])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTPS id 7227960672
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 11:01:47 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716807583;
+	bh=r8vMw0IV2aN2nQOE2CndNoAt8gYcJzt8OSJEm1MwdgE=;
+	h=Subject:To:Date:From:From;
+	b=PXEiYnCEnX/2szUh2U5ZA+4aP8yelk4VZwXxVb+CVtiljO/CI/SLSWQLOQttisJvI
+	 PcLGYK5wsZLc/TjhHpMZtjVzq+QBIGUonDVpSg2lExsncIs6jOKlGuR4P+t0Tn1axt
+	 3t3J/8RZDkrLu7VHEE6j7CeqEG1di1ddEqSghT4imCcQ7wOB6JwJNGT43wspd+4SEq
+	 6vtxul8iacnbIAxr/ShzQUgVvNx6TrKtLiUKjCHofcnyZ4TzU6GzNfyB8Q9YV0eQjj
+	 IN6DerZSMuXR4PpuuIK88Hd62acA3yOOpiz33hDeLk/2yDVSrWCyB3xbJB2CMB8W8y
+	 uQWJa4rvY/pJw==
+Received: from localhost (localhost [127.0.0.1])
+	by u7.cyberlab.fhnw.ch (Postfix) with ESMTP id BF3EEA2189
+	for <damjan@u10.cyberlab.fhnw.ch>; Mon, 27 May 2024 12:59:43 +0200 (CEST)
+X-Virus-Scanned: Debian amavisd-new at u7.cyberlab.fhnw.ch
+Received: from u7.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u7.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id J7yr9uv9kb2O for <damjan@u10.cyberlab.fhnw.ch>;
+	Mon, 27 May 2024 12:59:43 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u7.cyberlab.fhnw.ch;
+	s=default; t=1716807583;
+	bh=r8vMw0IV2aN2nQOE2CndNoAt8gYcJzt8OSJEm1MwdgE=;
+	h=Subject:To:Date:From:From;
+	b=PXEiYnCEnX/2szUh2U5ZA+4aP8yelk4VZwXxVb+CVtiljO/CI/SLSWQLOQttisJvI
+	 PcLGYK5wsZLc/TjhHpMZtjVzq+QBIGUonDVpSg2lExsncIs6jOKlGuR4P+t0Tn1axt
+	 3t3J/8RZDkrLu7VHEE6j7CeqEG1di1ddEqSghT4imCcQ7wOB6JwJNGT43wspd+4SEq
+	 6vtxul8iacnbIAxr/ShzQUgVvNx6TrKtLiUKjCHofcnyZ4TzU6GzNfyB8Q9YV0eQjj
+	 IN6DerZSMuXR4PpuuIK88Hd62acA3yOOpiz33hDeLk/2yDVSrWCyB3xbJB2CMB8W8y
+	 uQWJa4rvY/pJw==
+Received: by u7.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 90D50A218B; Mon, 27 May 2024 12:59:43 +0200 (CEST)
+Subject: Testing DKIM signing
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Mon, 27 May 2024 12:59:43 +0200
+Message-Id: <20240527105943.90D50A218B@u7.cyberlab.fhnw.ch>
+From: Student <student@u7.cyberlab.fhnw.ch>
+Status: OR
+X-UID: 36
+
+Subject Body
+
+From  Sat Jun  1 09:17:49 2024
+Return-Path: <>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix)
+	id 0781D60674; Sat,  1 Jun 2024 09:17:49 +0000 (UTC)
+Date: Sat,  1 Jun 2024 09:17:49 +0000 (UTC)
+From: MAILER-DAEMON@u10.cyberlab.fhnw.ch (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: damjan@u10.cyberlab.fhnw.ch
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="9FB7660673.1717233469/mail.u10.cyberlab.fhnw.ch"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20240601091749.0781D60674@mail.u10.cyberlab.fhnw.ch>
+Status: R
+X-UID: 37
+
+This is a MIME-encapsulated message.
+
+--9FB7660673.1717233469/mail.u10.cyberlab.fhnw.ch
+Content-Description: Notification
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+
+This is the mail system at host mail.u10.cyberlab.fhnw.ch.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<reflector@cyberlab.fhnw.ch>: host
+    srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23
+    <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected
+    due to: SPF fail - not authorized. Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+    (in reply to RCPT TO command)
+
+--9FB7660673.1717233469/mail.u10.cyberlab.fhnw.ch
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.u10.cyberlab.fhnw.ch
+X-Postfix-Queue-ID: 9FB7660673
+X-Postfix-Sender: rfc822; damjan@u10.cyberlab.fhnw.ch
+Arrival-Date: Sat,  1 Jun 2024 09:17:48 +0000 (UTC)
+
+Final-Recipient: rfc822; reflector@cyberlab.fhnw.ch
+Original-Recipient: rfc822;reflector@cyberlab.fhnw.ch
+Action: failed
+Status: 5.7.23
+Remote-MTA: dns; srvMSG01.cyberlab.fhnw.ch
+Diagnostic-Code: smtp; 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient
+    address rejected: Message rejected due to: SPF fail - not authorized.
+    Please see
+    http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN>
+
+--9FB7660673.1717233469/mail.u10.cyberlab.fhnw.ch
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1717233468;
+	bh=K9WpCkk9dee2plG/idt0gWF4Tly2UNNJcEryLLTNHTg=;
+	h=Date:From:To:Subject:From;
+	b=Rm0Q7qzvUvD8M4Vm9SPVl+SG7ujfUWIDHXKCdLvh8C8vY/ZcIUtRoJGwAMnecD4ck
+	 MJMZjOnMZXuuk53HttfzUw4BZF78kAqijzAueUn/qTeHUaAwiTvlViqHc9W52wkvUS
+	 wSE6uOSWLhrI/nxTb1YEQYnf0hGHv2lfNzddedjZ0v76MGLf8zrRNOQHOkxAkDbmT5
+	 yrC16GArBLdoHHolHjDZvdcDgxoS09pP9c68chLZDTcOEHOGDW3B3D+I6Hlep567dS
+	 pArTlmsiuVow3TNh+3jeS9QiDfcM8hd7r0+ClEP3BxzeAd0dkfEGb0uDkn5TI7mVEu
+	 Si10bqcpiZAgw==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 9FB7660673; Sat,  1 Jun 2024 09:17:48 +0000 (UTC)
+Date: Sat, 01 Jun 2024 09:17:48 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: no-virus
+Message-ID: <20240601091748.PYvbx%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an Viktor Weilenman
+
+--9FB7660673.1717233469/mail.u10.cyberlab.fhnw.ch--
+
+From reflector@srvmsg01.cyberlab.fhnw.ch Sat Jun  1 09:31:36 2024
+Return-Path: <reflector@srvmsg01.cyberlab.fhnw.ch>
+X-Original-To: damjan@u10.cyberlab.fhnw.ch
+Delivered-To: damjan@u10.cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id AECD760676
+	for <damjan@u10.cyberlab.fhnw.ch>; Sat,  1 Jun 2024 09:31:36 +0000 (UTC)
+X-Virus-Scanned: Debian amavisd-new at u10.cyberlab.fhnw.ch
+Received: from mail.u10.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (mail.u10.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id tCr5p_0UJCBa for <damjan@u10.cyberlab.fhnw.ch>;
+	Sat,  1 Jun 2024 09:31:36 +0000 (UTC)
+Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Received: from srvMSG01.cyberlab.fhnw.ch (srvMSG01.cyberlab.fhnw.ch [192.168.64.33])
+	by mail.u10.cyberlab.fhnw.ch (Postfix) with ESMTP id 8899D60675
+	for <damjan@u10.cyberlab.fhnw.ch>; Sat,  1 Jun 2024 09:31:36 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 75B136011A
+	for <damjan@u10.cyberlab.fhnw.ch>; Sat,  1 Jun 2024 11:31:36 +0200 (CEST)
+Received: from srvMSG01.cyberlab.fhnw.ch ([127.0.0.1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id j5ljSbaXbhyD for <damjan@u10.cyberlab.fhnw.ch>;
+	Sat,  1 Jun 2024 11:31:36 +0200 (CEST)
+Received: by srvMSG01.cyberlab.fhnw.ch (Postfix, from userid 1001)
+	id 6379D6012B; Sat,  1 Jun 2024 11:31:36 +0200 (CEST)
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="1804289383-1717234296=:77278"
+Subject: reflected: clean
+To: <damjan@u10.cyberlab.fhnw.ch>
+User-Agent: mail (GNU Mailutils 3.14)
+Date: Sat,  1 Jun 2024 11:31:36 +0200
+Message-Id: <20240601093136.6379D6012B@srvMSG01.cyberlab.fhnw.ch>
+From: reflector@srvmsg01.cyberlab.fhnw.ch
+Status: R
+X-UID: 38
+
+--1804289383-1717234296=:77278
+Content-Type: text/plain
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+Content-ID: <20240601113136.77278@srvmsg01.cyberlab.fhnw.ch>
+
+This is a message from reflector
+I received the attached mail
+73
+reflector aka god
+
+
+--1804289383-1717234296=:77278
+Content-Type: application/octet-stream; name="tmp.sxQK21uW9P.eml"
+Content-Disposition: attachment; filename="tmp.sxQK21uW9P.eml"
+Content-Transfer-Encoding: base64
+Content-ID: <20240601113136.77278.1@srvmsg01.cyberlab.fhnw.ch>
+
+RnJvbSBkYW1qYW5AdTEwLmN5YmVybGFiLmZobncuY2ggIFNhdCBKdW4gIDEgMTE6MzE6MzYgMjAy
+NApSZXR1cm4tUGF0aDogPGRhbWphbkB1MTAuY3liZXJsYWIuZmhudy5jaD4KWC1PcmlnaW5hbC1U
+bzogcmVmbGVjdG9yQGN5YmVybGFiLmZobncuY2gKRGVsaXZlcmVkLVRvOiByZWZsZWN0b3JAY3li
+ZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBsb2NhbGhvc3QgKGxvY2FsaG9zdCBbMTI3LjAu
+MC4xXSkKCWJ5IHNydk1TRzAxLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgpIHdpdGggRVNNVFAg
+aWQgNTc5MUE2MDEyMgoJZm9yIDxyZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaD47IFNhdCwgIDEg
+SnVuIDIwMjQgMTE6MzE6MzYgKzAyMDAgKENFU1QpCkF1dGhlbnRpY2F0aW9uLVJlc3VsdHM6IHNy
+dm1zZzAxLmN5YmVybGFiLmZobncuY2ggKGFtYXZpc2QtbmV3KTsKCWRraW09cGFzcyAoMjA0OC1i
+aXQga2V5KSBoZWFkZXIuZD11MTAuY3liZXJsYWIuZmhudy5jaApSZWNlaXZlZDogZnJvbSBzcnZN
+U0cwMS5jeWJlcmxhYi5maG53LmNoIChbSVB2Njo6OjFdKQoJYnkgbG9jYWxob3N0IChzcnZtc2cw
+MS5jeWJlcmxhYi5maG53LmNoIFtJUHY2Ojo6MV0pIChhbWF2aXNkLW5ldywgcG9ydCAxMDAyNCkK
+CXdpdGggRVNNVFAgaWQgaW5RRVVqQlBNR0xaIGZvciA8cmVmbGVjdG9yQGN5YmVybGFiLmZobncu
+Y2g+OwoJU2F0LCAgMSBKdW4gMjAyNCAxMTozMTozNiArMDIwMCAoQ0VTVCkKUmVjZWl2ZWQtU1BG
+OiBQYXNzIChtYWlsZnJvbSkgaWRlbnRpdHk9bWFpbGZyb207IGNsaWVudC1pcD0xOTIuMTY4Ljk3
+LjE4OTsgaGVsbz1tYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoOyBlbnZlbG9wZS1mcm9tPWRhbWph
+bkB1MTAuY3liZXJsYWIuZmhudy5jaDsgcmVjZWl2ZXI9PFVOS05PV04+IApSZWNlaXZlZDogZnJv
+bSBtYWlsLnUxMC5jeWJlcmxhYi5maG53LmNoICh1bmtub3duIFsxOTIuMTY4Ljk3LjE4OV0pCgli
+eSBzcnZNU0cwMS5jeWJlcmxhYi5maG53LmNoIChQb3N0Zml4KSB3aXRoIEVTTVRQUyBpZCAzRkQx
+RjYwMTFBCglmb3IgPHJlZmxlY3RvckBjeWJlcmxhYi5maG53LmNoPjsgU2F0LCAgMSBKdW4gMjAy
+NCAxMTozMTozNiArMDIwMCAoQ0VTVCkKREtJTS1TaWduYXR1cmU6IHY9MTsgYT1yc2Etc2hhMjU2
+OyBjPXJlbGF4ZWQvc2ltcGxlOyBkPXUxMC5jeWJlcmxhYi5maG53LmNoOwoJcz1tYWlsOyB0PTE3
+MTcyMzQyOTY7CgliaD1mQSsvMDVaMExiTWsxTi9yZjh2QXU3MzExd3QwODI4NDJLWDNWL2hIUDNr
+PTsKCWg9RGF0ZTpGcm9tOlRvOlN1YmplY3Q6RnJvbTsKCWI9QVNiWklKTzAvMU1GZ3JkSUN3UlVx
+ZzA3WDJIS0YzaHZFMDNaQlpxeVlnTEdTZkMzUC8xSWpHbldlRG9ITDFzSXIKCSBiK05hbkovZm5K
+aHBYbWpUWFd5aTNaeC9PbDZ0K083TllEZTlZdysyNnlyWHVGTUZxOFpzWnZ5NTlWU1dackd5UzQK
+CSBES1IyUkdYUnVSZEkvd1JWWTBLVGhGR0dLOWZmVG5rYjBydUlnaFZHKzJJUWM3bndTMlE2VlJL
+cTR6UlVUQkFrQSsKCSBXR3pVRi8zVEhsSWJOMHNkMHpSMXM2TXMzanlGVXJWRVE4eU8yZ2pxcUhh
+bGdWbVZsNXVpcmdoL2tkcUJyTmhpQ2QKCSBWYmNXUlpnRm40anZ1cDAvUzhoRlJJMm1BUE9JWlJu
+NlU2dzB4MXN0c2NZak5pdFl2c1o0WVJzU3I0aWhueE1YS1EKCSBjVjlkU2IwMGdacml3PT0KUmVj
+ZWl2ZWQ6IGJ5IG1haWwudTEwLmN5YmVybGFiLmZobncuY2ggKFBvc3RmaXgsIGZyb20gdXNlcmlk
+IDEwMDApCglpZCAyMDI3NDYwNjc2OyBTYXQsICAxIEp1biAyMDI0IDA5OjMxOjM2ICswMDAwIChV
+VEMpCkRhdGU6IFNhdCwgMDEgSnVuIDIwMjQgMDk6MzE6MzYgKzAwMDAKRnJvbTogZGFtamFuQHUx
+MC5jeWJlcmxhYi5maG53LmNoClRvOiByZWZsZWN0b3JAY3liZXJsYWIuZmhudy5jaApTdWJqZWN0
+OiBjbGVhbgpNZXNzYWdlLUlEOiA8MjAyNDA2MDEwOTMxMzYuY2QyNnMlZGFtamFuQHUxMC5jeWJl
+cmxhYi5maG53LmNoPgpVc2VyLUFnZW50OiBzLW5haWwgdjE0LjkuMjMKCkRpZXMgaXN0IGVpbmUg
+TmFjaHJpY2h0IHZvbiBEYW1qYW4gTWxpbmFyIGFuIGRlbiBSZWZsZWN0b3Igdm9uIEN5YmVybGFi
+Cgo=
+--1804289383-1717234296=:77278--
+
+#### Mail an Reflector von Damjan:
+From damjan@u10.cyberlab.fhnw.ch  Sat Jun  1 11:31:36 2024
+Return-Path: <damjan@u10.cyberlab.fhnw.ch>
+X-Original-To: reflector@cyberlab.fhnw.ch
+Delivered-To: reflector@cyberlab.fhnw.ch
+Received: from localhost (localhost [127.0.0.1])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTP id 5791A60122
+	for <reflector@cyberlab.fhnw.ch>; Sat,  1 Jun 2024 11:31:36 +0200 (CEST)
+Authentication-Results: srvmsg01.cyberlab.fhnw.ch (amavisd-new);
+	dkim=pass (2048-bit key) header.d=u10.cyberlab.fhnw.ch
+Received: from srvMSG01.cyberlab.fhnw.ch ([IPv6:::1])
+	by localhost (srvmsg01.cyberlab.fhnw.ch [IPv6:::1]) (amavisd-new, port 10024)
+	with ESMTP id inQEUjBPMGLZ for <reflector@cyberlab.fhnw.ch>;
+	Sat,  1 Jun 2024 11:31:36 +0200 (CEST)
+Received-SPF: Pass (mailfrom) identity=mailfrom; client-ip=192.168.97.189; helo=mail.u10.cyberlab.fhnw.ch; envelope-from=damjan@u10.cyberlab.fhnw.ch; receiver=<UNKNOWN>
+Received: from mail.u10.cyberlab.fhnw.ch (unknown [192.168.97.189])
+	by srvMSG01.cyberlab.fhnw.ch (Postfix) with ESMTPS id 3FD1F6011A
+	for <reflector@cyberlab.fhnw.ch>; Sat,  1 Jun 2024 11:31:36 +0200 (CEST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=u10.cyberlab.fhnw.ch;
+	s=mail; t=1717234296;
+	bh=fA+/05Z0LbMk1N/rf8vAu7311wt082842KX3V/hHP3k=;
+	h=Date:From:To:Subject:From;
+	b=ASbZIJO0/1MFgrdICwRUqg07X2HKF3hvE03ZBZqyYgLGSfC3P/1IjGnWeDoHL1sIr
+	 b+NanJ/fnJhpXmjTXWyi3Zx/Ol6t+O7NYDe9Yw+26yrXuFMFq8ZsZvy59VSWZrGyS4
+	 DKR2RGXRuRdI/wRVY0KThFGGK9ffTnkb0ruIghVG+2IQc7nwS2Q6VRKq4zRUTBAkA+
+	 WGzUF/3THlIbN0sd0zR1s6Ms3jyFUrVEQ8yO2gjqqHalgVmVl5uirgh/kdqBrNhiCd
+	 VbcWRZgFn4jvup0/S8hFRI2mAPOIZRn6U6w0x1stscYjNitYvsZ4YRsSr4ihnxMXKQ
+	 cV9dSb00gZriw==
+Received: by mail.u10.cyberlab.fhnw.ch (Postfix, from userid 1000)
+	id 2027460676; Sat,  1 Jun 2024 09:31:36 +0000 (UTC)
+Date: Sat, 01 Jun 2024 09:31:36 +0000
+From: damjan@u10.cyberlab.fhnw.ch
+To: reflector@cyberlab.fhnw.ch
+Subject: clean
+Message-ID: <20240601093136.cd26s%damjan@u10.cyberlab.fhnw.ch>
+User-Agent: s-nail v14.9.23
+
+Dies ist eine Nachricht von Damjan Mlinar an den Reflector von Cyberlab
+
+

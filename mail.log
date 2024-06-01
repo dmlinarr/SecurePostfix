@@ -1,0 +1,120 @@
+Jun  1 07:23:35 postfix postgrey[989]: Process Backgrounded
+Jun  1 07:23:35 postfix postgrey[989]: 2024/06/01-07:23:35 postgrey (type Net::Server::Multiplex) starting! pid(989)
+Jun  1 07:23:35 postfix postgrey[989]: Binding to TCP port 10023 on host 127.0.0.1 with IPv4
+Jun  1 07:23:35 postfix postgrey[989]: Setting gid to "124 124"
+Jun  1 07:23:35 postfix postgrey[989]: Setting uid to "117"
+Jun  1 07:23:36 postfix amavis[783]: starting. /usr/sbin/amavisd-new at mail.u10.cyberlab.fhnw.ch amavisd-new-2.12.2 (20211013), Unicode aware, LANG="en_US.UTF-8"
+Jun  1 07:23:36 postfix amavis[783]: perl=5.034000, user=119, EUID: 119 (119);  group=, EGID: 126 125 126 (126 125 126)
+Jun  1 07:23:36 postfix postfix/postfix-script[1599]: starting the Postfix mail system
+Jun  1 07:23:36 postfix postfix/master[1601]: daemon started -- version 3.6.4, configuration /etc/postfix
+Jun  1 07:23:36 postfix amavis[783]: Net::Server: Group Not Defined.  Defaulting to EGID '126 125 126'
+Jun  1 07:23:36 postfix amavis[783]: Net::Server: User Not Defined.  Defaulting to EUID '119'
+Jun  1 07:23:36 postfix amavis[783]: No $altermime,         not using it
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .lrz, tried: lrzip -q -k -d -o -, lrzcat -q -k
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .lzo, tried: lzop -d
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .lz4, tried: lz4c -d
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .rpm, tried: rpm2cpio.pl, rpm2cpio
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .rar, tried: unrar-free
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .zoo, tried: zoo
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .doc, tried: ripole
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .zip, tried: 7za, 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .kmz, tried: 7za, 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .7z, tried: 7zr, 7za, 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .jar, tried: 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .rar, tried: 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .swf, tried: 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .lha, tried: 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .iso, tried: 7z
+Jun  1 07:23:36 postfix amavis[783]: No ext program for   .rpm, tried: 7z
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .7z  
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .F   
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .doc 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .iso 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .jar 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .lha 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .lrz 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .lz4 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .lzo 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .rar 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .rpm 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .swf 
+Jun  1 07:23:36 postfix amavis[783]: No decoder for       .zoo 
+Jun  1 07:23:36 postfix amavis[783]: Using primary internal av scanner code for ClamAV-clamd
+Jun  1 07:23:36 postfix amavis[783]: Found secondary av scanner ClamAV-clamscan at /usr/bin/clamscan
+Jun  1 09:17:48 postfix postfix/pickup[3037]: 9FB7660673: uid=1000 from=<damjan@u10.cyberlab.fhnw.ch>
+Jun  1 09:17:48 postfix postfix/cleanup[3074]: 9FB7660673: message-id=<20240601091748.PYvbx%damjan@u10.cyberlab.fhnw.ch>
+Jun  1 09:17:48 postfix opendkim[774]: 9FB7660673: DKIM-Signature field added (s=mail, d=u10.cyberlab.fhnw.ch)
+Jun  1 09:17:48 postfix postfix/qmgr[1604]: 9FB7660673: from=<damjan@u10.cyberlab.fhnw.ch>, size=440, nrcpt=1 (queue active)
+Jun  1 09:17:49 postfix postfix/smtp[3076]: 9FB7660673: to=<reflector@cyberlab.fhnw.ch>, relay=srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33]:25, delay=0.39, delays=0.1/0.02/0.11/0.16, dsn=5.7.23, status=bounced (host srvMSG01.cyberlab.fhnw.ch[2001:470:b78e:8000::33] said: 550 5.7.23 <reflector@cyberlab.fhnw.ch>: Recipient address rejected: Message rejected due to: SPF fail - not authorized. Please see http://www.openspf.net/Why?s=mfrom;id=damjan@u10.cyberlab.fhnw.ch;ip=2001:470:b78e:f100::e77e;r=<UNKNOWN> (in reply to RCPT TO command))
+Jun  1 09:17:49 postfix postfix/cleanup[3074]: 0781D60674: message-id=<20240601091749.0781D60674@mail.u10.cyberlab.fhnw.ch>
+Jun  1 09:17:49 postfix postfix/bounce[3078]: 9FB7660673: sender non-delivery notification: 0781D60674
+Jun  1 09:17:49 postfix postfix/qmgr[1604]: 0781D60674: from=<>, size=3592, nrcpt=1 (queue active)
+Jun  1 09:17:49 postfix postfix/qmgr[1604]: 9FB7660673: removed
+Jun  1 09:17:49 postfix postfix/local[3079]: 0781D60674: to=<damjan@u10.cyberlab.fhnw.ch>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jun  1 09:17:49 postfix postfix/qmgr[1604]: 0781D60674: removed
+Jun  1 09:18:25 postfix postfix/pickup[3037]: 9809760673: uid=1000 from=<damjan@u10.cyberlab.fhnw.ch> ///HIER///
+Jun  1 09:18:25 postfix postfix/cleanup[3074]: 9809760673: message-id=<20240601091825.kmRPh%damjan@u10.cyberlab.fhnw.ch>
+Jun  1 09:18:25 postfix opendkim[774]: 9809760673: DKIM-Signature field added (s=mail, d=u10.cyberlab.fhnw.ch)
+Jun  1 09:18:25 postfix postfix/qmgr[1604]: 9809760673: from=<damjan@u10.cyberlab.fhnw.ch>, size=440, nrcpt=1 (queue active)
+Jun  1 09:18:25 postfix postfix/smtp[3076]: 9809760673: to=<reflector@cyberlab.fhnw.ch>, relay=srvMSG01.cyberlab.fhnw.ch[192.168.64.33]:25, delay=0.12, delays=0.06/0/0.02/0.04, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as B284E6011A)
+Jun  1 09:18:25 postfix postfix/qmgr[1604]: 9809760673: removed
+Jun  1 09:18:27 postfix postfix/smtpd[3099]: connect from srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+Jun  1 09:18:27 postfix policyd-spf[3103]: prepend Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Jun  1 09:18:27 postfix postgrey[989]: action=pass, reason=client whitelist, client_name=srvMSG01.cyberlab.fhnw.ch, client_address=192.168.64.33/32, sender=reflector@srvmsg01.cyberlab.fhnw.ch, recipient=damjan@u10.cyberlab.fhnw.ch
+Jun  1 09:18:27 postfix postgrey[989]: cleaning up old logs...
+Jun  1 09:18:27 postfix postfix/smtpd[3099]: 413BE60672: client=srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+Jun  1 09:18:27 postfix postfix/cleanup[3074]: 413BE60672: message-id=<20240601091826.D04496012B@srvMSG01.cyberlab.fhnw.ch>
+Jun  1 09:18:27 postfix opendkim[774]: 413BE60672: srvMSG01.cyberlab.fhnw.ch [192.168.64.33] not internal
+Jun  1 09:18:27 postfix opendkim[774]: 413BE60672: not authenticated
+Jun  1 09:18:27 postfix opendkim[774]: 413BE60672: no signature data
+Jun  1 09:18:27 postfix postfix/qmgr[1604]: 413BE60672: from=<reflector@srvmsg01.cyberlab.fhnw.ch>, size=5133, nrcpt=1 (queue active)
+Jun  1 09:18:27 postfix postfix/smtpd[3099]: disconnect from srvMSG01.cyberlab.fhnw.ch[192.168.64.33] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jun  1 09:18:28 postfix amavis[1626]: (01626-01) Blocked INFECTED (Win.Test.EICAR_HDB-1) {DiscardedInbound,Quarantined}, [192.168.64.33]:57864 <reflector@srvmsg01.cyberlab.fhnw.ch> -> <damjan@u10.cyberlab.fhnw.ch>, quarantine: 7/virus-7AueO3MCQ0Xg, Queue-ID: 413BE60672, Message-ID: <20240601091826.D04496012B@srvmsg01.cyberlab.fhnw.ch>, mail_id: 7AueO3MCQ0Xg, Hits: -, size: 5098, 981 ms
+Jun  1 09:18:28 postfix postfix/smtp[3104]: 413BE60672: to=<damjan@u10.cyberlab.fhnw.ch>, relay=127.0.0.1[127.0.0.1]:10024, delay=1.2, delays=0.19/0.01/0.23/0.82, dsn=2.7.0, status=sent (250 2.7.0 Ok, discarded, id=01626-01 - INFECTED: Win.Test.EICAR_HDB-1)
+Jun  1 09:18:28 postfix postfix/qmgr[1604]: 413BE60672: removed
+Jun  1 09:20:08 postfix postfix/pickup[3037]: A3E0060673: uid=1000 from=<damjan@u10.cyberlab.fhnw.ch> ///HIER///
+Jun  1 09:20:08 postfix postfix/cleanup[3129]: A3E0060673: message-id=<20240601092008.NL2L-%damjan@u10.cyberlab.fhnw.ch>
+Jun  1 09:20:08 postfix opendkim[774]: A3E0060673: DKIM-Signature field added (s=mail, d=u10.cyberlab.fhnw.ch)
+Jun  1 09:20:08 postfix postfix/qmgr[1604]: A3E0060673: from=<damjan@u10.cyberlab.fhnw.ch>, size=440, nrcpt=1 (queue active)
+Jun  1 09:20:08 postfix postfix/smtp[3130]: A3E0060673: to=<reflector@cyberlab.fhnw.ch>, relay=srvMSG01.cyberlab.fhnw.ch[192.168.64.33]:25, delay=0.24, delays=0.07/0.01/0.06/0.1, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as DABC36011A)
+Jun  1 09:20:08 postfix postfix/qmgr[1604]: A3E0060673: removed
+Jun  1 09:20:09 postfix postfix/smtpd[3131]: connect from srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+Jun  1 09:20:09 postfix policyd-spf[3132]: prepend Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Jun  1 09:20:09 postfix postgrey[989]: action=pass, reason=client whitelist, client_name=srvMSG01.cyberlab.fhnw.ch, client_address=192.168.64.33/32, sender=reflector@srvmsg01.cyberlab.fhnw.ch, recipient=damjan@u10.cyberlab.fhnw.ch
+Jun  1 09:20:09 postfix postfix/smtpd[3131]: 2C0AB60671: client=srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+Jun  1 09:20:09 postfix postfix/cleanup[3129]: 2C0AB60671: message-id=<20240601092009.076C06012B@srvMSG01.cyberlab.fhnw.ch>
+Jun  1 09:20:09 postfix opendkim[774]: 2C0AB60671: srvMSG01.cyberlab.fhnw.ch [192.168.64.33] not internal
+Jun  1 09:20:09 postfix opendkim[774]: 2C0AB60671: not authenticated
+Jun  1 09:20:09 postfix opendkim[774]: 2C0AB60671: no signature data
+Jun  1 09:20:09 postfix postfix/qmgr[1604]: 2C0AB60671: from=<reflector@srvmsg01.cyberlab.fhnw.ch>, size=4712, nrcpt=1 (queue active)
+Jun  1 09:20:09 postfix postfix/smtpd[3131]: disconnect from srvMSG01.cyberlab.fhnw.ch[192.168.64.33] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jun  1 09:20:10 postfix postfix/smtpd[3136]: connect from localhost[127.0.0.1]
+Jun  1 09:20:10 postfix postfix/smtpd[3136]: 3D03660673: client=localhost[127.0.0.1]
+Jun  1 09:20:10 postfix postfix/cleanup[3129]: 3D03660673: message-id=<20240601092009.076C06012B@srvMSG01.cyberlab.fhnw.ch>
+Jun  1 09:20:10 postfix opendkim[774]: 3D03660673: no signing table match for 'reflector@srvmsg01.cyberlab.fhnw.ch'
+Jun  1 09:20:10 postfix opendkim[774]: 3D03660673: no signature data
+Jun  1 09:20:10 postfix postfix/qmgr[1604]: 3D03660673: from=<reflector@srvmsg01.cyberlab.fhnw.ch>, size=5205, nrcpt=1 (queue active)
+Jun  1 09:20:10 postfix postfix/local[3137]: 3D03660673: to=<damjan@u10.cyberlab.fhnw.ch>, relay=local, delay=0.02, delays=0.01/0/0/0.01, dsn=2.0.0, status=sent (delivered to maildir)
+Jun  1 09:20:10 postfix postfix/qmgr[1604]: 3D03660673: removed
+Jun  1 09:20:10 postfix amavis[1627]: (01627-01) Passed CLEAN {RelayedInbound}, [192.168.64.33]:48860 <reflector@srvmsg01.cyberlab.fhnw.ch> -> <damjan@u10.cyberlab.fhnw.ch>, Queue-ID: 2C0AB60671, Message-ID: <20240601092009.076C06012B@srvmsg01.cyberlab.fhnw.ch>, mail_id: bPbNCGywhlkw, Hits: -0.999, size: 4677, queued_as: 3D03660673, 1067 ms
+Jun  1 09:20:10 postfix postfix/smtp[3133]: 2C0AB60671: to=<damjan@u10.cyberlab.fhnw.ch>, relay=127.0.0.1[127.0.0.1]:10024, delay=1.1, delays=0.06/0.01/0.01/1.1, dsn=2.0.0, status=sent (250 2.0.0 from MTA(smtp:[127.0.0.1]:10025): 250 2.0.0 Ok: queued as 3D03660673)
+Jun  1 09:20:10 postfix postfix/qmgr[1604]: 2C0AB60671: removed ///HIER///
+Jun  1 09:20:36 postfix postfix/pickup[3037]: 0B95660673: uid=1000 from=<damjan@u10.cyberlab.fhnw.ch>
+Jun  1 09:20:36 postfix postfix/cleanup[3129]: 0B95660673: message-id=<20240601092036.4nX9g%damjan@u10.cyberlab.fhnw.ch>
+Jun  1 09:20:36 postfix opendkim[774]: 0B95660673: DKIM-Signature field added (s=mail, d=u10.cyberlab.fhnw.ch)
+Jun  1 09:20:36 postfix postfix/qmgr[1604]: 0B95660673: from=<damjan@u10.cyberlab.fhnw.ch>, size=440, nrcpt=1 (queue active)
+Jun  1 09:20:36 postfix postfix/smtp[3130]: 0B95660673: to=<reflector@cyberlab.fhnw.ch>, relay=srvMSG01.cyberlab.fhnw.ch[192.168.64.33]:25, delay=0.14, delays=0.06/0/0.05/0.03, dsn=2.0.0, status=sent (250 2.0.0 Ok: queued as 2B2946011A)
+Jun  1 09:20:36 postfix postfix/qmgr[1604]: 0B95660673: removed
+Jun  1 09:20:36 postfix postfix/smtpd[3131]: connect from srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+Jun  1 09:20:36 postfix policyd-spf[3132]: prepend Received-SPF: None (mailfrom) identity=mailfrom; client-ip=192.168.64.33; helo=srvmsg01.cyberlab.fhnw.ch; envelope-from=reflector@srvmsg01.cyberlab.fhnw.ch; receiver=<UNKNOWN> 
+Jun  1 09:20:36 postfix postgrey[989]: action=pass, reason=client whitelist, client_name=srvMSG01.cyberlab.fhnw.ch, client_address=192.168.64.33/32, sender=reflector@srvmsg01.cyberlab.fhnw.ch, recipient=damjan@u10.cyberlab.fhnw.ch
+Jun  1 09:20:36 postfix postfix/smtpd[3131]: 5D20460671: client=srvMSG01.cyberlab.fhnw.ch[192.168.64.33]
+Jun  1 09:20:36 postfix postfix/cleanup[3129]: 5D20460671: message-id=<20240601092036.48EBD6012B@srvMSG01.cyberlab.fhnw.ch>
+Jun  1 09:20:36 postfix opendkim[774]: 5D20460671: srvMSG01.cyberlab.fhnw.ch [192.168.64.33] not internal
+Jun  1 09:20:36 postfix opendkim[774]: 5D20460671: not authenticated
+Jun  1 09:20:36 postfix opendkim[774]: 5D20460671: no signature data
+Jun  1 09:20:36 postfix postfix/qmgr[1604]: 5D20460671: from=<reflector@srvmsg01.cyberlab.fhnw.ch>, size=5124, nrcpt=1 (queue active)
+Jun  1 09:20:36 postfix postfix/smtpd[3131]: disconnect from srvMSG01.cyberlab.fhnw.ch[192.168.64.33] ehlo=1 mail=1 rcpt=1 data=1 quit=1 commands=5
+Jun  1 09:20:36 postfix amavis[1626]: (01626-02) Blocked INFECTED (Win.Test.EICAR_HDB-1) {DiscardedInbound,Quarantined}, [192.168.64.33]:36664 <reflector@srvmsg01.cyberlab.fhnw.ch> -> <damjan@u10.cyberlab.fhnw.ch>, quarantine: 3/virus-3n5yiEaC7R-U, Queue-ID: 5D20460671, Message-ID: <20240601092036.48EBD6012B@srvmsg01.cyberlab.fhnw.ch>, mail_id: 3n5yiEaC7R-U, Hits: -, size: 5089, 75 ms
+Jun  1 09:20:36 postfix postfix/smtp[3133]: 5D20460671: to=<damjan@u10.cyberlab.fhnw.ch>, relay=127.0.0.1[127.0.0.1]:10024, delay=0.09, delays=0.01/0/0/0.07, dsn=2.7.0, status=sent (250 2.7.0 Ok, discarded, id=01626-02 - INFECTED: Win.Test.EICAR_HDB-1)
+Jun  1 09:20:36 postfix postfix/qmgr[1604]: 5D20460671: removed
