@@ -39,6 +39,35 @@ der DNS-Zonendaten dieser Domain verantwortlich.
 des zuständigen Administrators (Hostmaster) für die Zone cyberlab.fhnw.ch.
 
 ####
+> dig cyberlab.fhnw.ch ns
+
+; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> cyberlab.fhnw.ch ns
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 14958
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 5
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 65494
+;; QUESTION SECTION:
+;cyberlab.fhnw.ch.		IN	NS
+
+;; ANSWER SECTION:
+cyberlab.fhnw.ch.	4774	IN	NS	srvNS02.cyberlab.fhnw.ch.
+cyberlab.fhnw.ch.	4774	IN	NS	srvNS01.cyberlab.fhnw.ch.
+
+;; ADDITIONAL SECTION:
+srvNS01.cyberlab.fhnw.ch. 4774	IN	A	192.168.64.10
+srvNS01.cyberlab.fhnw.ch. 4774	IN	AAAA	2001:470:b78e:8000::10
+srvNS02.cyberlab.fhnw.ch. 4774	IN	AAAA	2001:470:b78e:8000::11
+srvNS02.cyberlab.fhnw.ch. 4774	IN	A	192.168.64.11
+
+;; Query time: 0 msec
+;; SERVER: 127.0.0.53#53(127.0.0.53) (UDP)
+;; WHEN: Sat Jun 01 07:29:49 UTC 2024
+;; MSG SIZE  rcvd: 177
+
+####
 > dig srvNS01.cyberlab.fhnw.ch
 
 ; <<>> DiG 9.18.18-0ubuntu0.22.04.2-Ubuntu <<>> srvNS01.cyberlab.fhnw.ch
